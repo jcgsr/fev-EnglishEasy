@@ -2,9 +2,11 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&family=Marmelad&display=swap');
+
 .btn {
   @apply flex items-center
-  sm:justify-center content-between p-3 mx-2 font-bold text-white bg-red-500 rounded-lg shadow-lg hover:bg-blue-800 md:w-1/6;
+  sm:justify-center content-between p-3 mx-2 font-bold text-white bg-red-500 rounded-lg shadow-lg hover:bg-blue-800 md:w-1/6 outline-none;
 }
 
 h1 {
