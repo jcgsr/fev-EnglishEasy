@@ -2,30 +2,32 @@
   <b-container class="container">
     <h1>English Easy</h1>
     <b-row>
-      <b-col>
+      <b-col md="3">
         <b-dropdown
           id="dropdown-1"
           text="6º Ano"
           variant="danger"
           class="m-md-4 mb-2 shadow"
           size="lg"
-          cols="3"
+          
         >
+          <b-dropdown-item>
+            <router-link to="/subj">Subject Pronouns</router-link>
+          </b-dropdown-item>
+ 
           <b-dropdown-item>
             <router-link to="/be">To Be</router-link>
           </b-dropdown-item>
-          <b-dropdown-item>Second Action</b-dropdown-item>
-          <b-dropdown-item>Third Action</b-dropdown-item>
         </b-dropdown>
       </b-col>
-      <b-col>
+      <b-col md="3">
         <b-dropdown
           id="dropdown-1"
           text="7º Ano"
           variant="danger"
-          class="m-md-4 shadow"
+          class="m-md-4 mb-2 shadow"
           size="lg"
-          cols="3"
+          
         >
           <b-dropdown-item>
             <router-link to="/be">To Be</router-link>
@@ -34,14 +36,14 @@
           <b-dropdown-item>Third Action</b-dropdown-item>
         </b-dropdown>
       </b-col>
-      <b-col>
+      <b-col md="3">
         <b-dropdown
           id="dropdown-1"
           text="8º Ano"
           variant="danger"
-          class="m-md-4 shadow"
+          class="m-md-4 mb-2 shadow"
           size="lg"
-          cols="3"
+          
         >
           <b-dropdown-item>
             <router-link to="/be">To Be</router-link>
@@ -50,14 +52,14 @@
           <b-dropdown-item>Third Action</b-dropdown-item>
         </b-dropdown>
       </b-col>
-      <b-col>
+      <b-col md="3">
         <b-dropdown
           id="dropdown-1"
           text="9º Ano"
           variant="danger"
           class="m-md-4 shadow"
           size="lg"
-          cols="3"
+         
         >
           <b-dropdown-item>
             <router-link to="/be">To Be</router-link>

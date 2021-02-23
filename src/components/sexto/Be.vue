@@ -3,9 +3,9 @@
     <Header6 />
     <!-- component -->
     <b-card class="shadow-lg">
-      <b-card-title class="">Verb To Be</b-card-title>
+      <b-card-title>Verb To Be</b-card-title>
       <b-card-sub-title>Verbo Ser/Estar</b-card-sub-title>
-      <b-card-text class="text-center mt-2">
+      <b-card-text class="mt-2 md-w-75 text-center mx-auto">
         <p>
           Um dos verbos mais importantes em inglês, o verbo
           <strong>"to be"</strong> é o mais usado nessa língua. Ele serve para
@@ -14,7 +14,7 @@
         </p>
 
         <p>
-          Em inglês, pode ser usado para dizer coisas diferentes de acordo com o
+          Pode ser usado para dizer coisas diferentes de acordo com o
           contexto. Possui três flexões no Presente Simples:
           <strong>am, is, are</strong>. Confere os seus usos nas tabelas abaixo.
          <em class="text-primary">Dica:</em>  <strong>am</strong> sempre com <strong>I</strong>,
@@ -261,4 +261,7 @@ tr,
 td,
 th {
   padding: 0.2rem; 
+}
+p {
+  width: 80%;
 }
