@@ -1,27 +1,73 @@
 <template>
-  <div class="flex-row">
-    <div class="flex-col">
-      <h1 class="p-3 text-2xl font-bold text-center text-red-500 h1s">
-        English Easy
-      </h1>
-      <div class="w-full buttons">
-        <button class="btn">
-        <router-link to="/sexto">
-          6º Ano
-        </router-link>
-        </button>
-        <button class="btn">
-          7º Ano
-        </button>
-        <button class="btn">
-          8º Ano
-        </button>
-        <button class="btn">
-          9º Ano
-        </button>
-      </div>
-    </div>
-  </div>
+  <b-container class="container">
+    <h1>English Easy</h1>
+    <b-row>
+      <b-col>
+        <b-dropdown
+          id="dropdown-1"
+          text="6º Ano"
+          variant="danger"
+          class="m-md-4 mb-2 shadow"
+          size="lg"
+          cols="3"
+        >
+          <b-dropdown-item>
+            <router-link to="/be">To Be</router-link>
+          </b-dropdown-item>
+          <b-dropdown-item>Second Action</b-dropdown-item>
+          <b-dropdown-item>Third Action</b-dropdown-item>
+        </b-dropdown>
+      </b-col>
+      <b-col>
+        <b-dropdown
+          id="dropdown-1"
+          text="7º Ano"
+          variant="danger"
+          class="m-md-4 shadow"
+          size="lg"
+          cols="3"
+        >
+          <b-dropdown-item>
+            <router-link to="/be">To Be</router-link>
+          </b-dropdown-item>
+          <b-dropdown-item>Second Action</b-dropdown-item>
+          <b-dropdown-item>Third Action</b-dropdown-item>
+        </b-dropdown>
+      </b-col>
+      <b-col>
+        <b-dropdown
+          id="dropdown-1"
+          text="8º Ano"
+          variant="danger"
+          class="m-md-4 shadow"
+          size="lg"
+          cols="3"
+        >
+          <b-dropdown-item>
+            <router-link to="/be">To Be</router-link>
+          </b-dropdown-item>
+          <b-dropdown-item>Second Action</b-dropdown-item>
+          <b-dropdown-item>Third Action</b-dropdown-item>
+        </b-dropdown>
+      </b-col>
+      <b-col>
+        <b-dropdown
+          id="dropdown-1"
+          text="9º Ano"
+          variant="danger"
+          class="m-md-4 shadow"
+          size="lg"
+          cols="3"
+        >
+          <b-dropdown-item>
+            <router-link to="/be">To Be</router-link>
+          </b-dropdown-item>
+          <b-dropdown-item>Second Action</b-dropdown-item>
+          <b-dropdown-item>Third Action</b-dropdown-item>
+        </b-dropdown>
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
@@ -30,9 +76,25 @@ export default {
 };
 </script>
 <style>
-.buttons {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 1rem;
+h1 {
+  text-align: center;
+  padding: 1rem;
+}
+.btn-danger {
+  background-color: rgb(241, 11, 11);
+}
+.btn-danger:hover {
+  background-color: blue !important;
+  border: none;
+}
+.container {
+  text-align: center;
+}
+.dropdown-menu > li > a:hover {
+  background-color: blue;
+  color: white;
+}
+.dropdown-menu ul {
+  background-color: gray;
 }
 </style>

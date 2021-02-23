@@ -3,7 +3,7 @@ import Router from "vue-router";
 
 import Home from "./components/Home";
 import Info from "./components/Info";
-import Sexto from "./components/Sexto";
+import Be from "./components/sexto/Be";
 
 Vue.use(Router);
 
@@ -30,12 +30,12 @@ export default new Router({
       },
     },
     {
-      path: "/sexto",
-      name: "sexto",
-      component: Sexto,
+      path: "/be",
+      name: "be",
+      component: Be,
       meta: {
         auth: false,
-        title: "6º Ano",
+        title: "To Be",
       },
     },
   ],

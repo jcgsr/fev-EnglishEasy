@@ -1,46 +1,38 @@
 <template>
-  <div class="flex-row w-full bg-red-500 shadow-md">
-    <div class="flex-col">
-    <div class="header">
-      <button type="button">
-        <router-link to="/">
-          <h1
-            class="p-3 text-2xl font-bold text-left text-white bg-red-500 shadow-md"
-          >
-            English Easy
-          </h1>
-        </router-link>
-      </button>
-      <button type="button">
-        <router-link to="/info">
-          <i class="px-2 text-2xl text-right fas fa-info"></i>
-        </router-link>
-      </button>
-    </div>
-    </div>
+  <div class="shadow">
+    <b-navbar toggleable="lg" type="dark" variant="danger">
+      <router-link to="/">
+        <b-navbar-brand>English Easy</b-navbar-brand>
+      </router-link>
+
+      <!-- Right aligned nav items -->
+      <b-navbar-nav class="ml-auto">
+        <b-nav-item right>
+          <!-- Using 'button-content' slot -->
+          <template>
+            <router-link to="/info">
+              <em> <i class="fas fa-info"></i></em>
+            </router-link>
+          </template>
+        </b-nav-item>
+      </b-navbar-nav>
+    </b-navbar>
   </div>
 </template>
 
 <script>
 export default {
   name: "Header",
-  props: {
-    msg: String,
-  },
+  
 };
 </script>
 <style>
-a {
-    color: blue;
-    text-decoration: none;
-    text-align: right;
-  }
-  i {
-      color: white;
-    }
-  .header{
-      display: flex;
-      justify-content: space-between;
-    } 
+i {
+  color: white;
+  font-size: 1.5rem;
+}
+.bg-danger {
+  background-color: rgb(241, 11, 11);
+}
 </style>
 

@@ -25,7 +25,11 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&family=Marmelad&display=swap');
+
 #app {
+  
   font-family: 'Inconsolata', monospace;
+  color:  rgb(241, 11, 11);
 }
 </style>
