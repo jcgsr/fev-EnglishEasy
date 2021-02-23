@@ -6,10 +6,7 @@
       <b-card-sub-title>Pronomes Pessoais</b-card-sub-title>
       <b-card-text class="mt-2 md-w-75 text-center mx-auto">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis
-          voluptas, distinctio dignissimos numquam explicabo, fugit quae libero
-          id adipisci quidem illum nostrum unde asperiores, reiciendis
-          accusamus. Atque, iure re
+          Os Pronomes Pessoais são os <strong>sujeitos</strong> dos verbos. O Pronome pessoal <strong>I</strong> deve ser sempre escrito com letra maiúscula.
         </p>
       </b-card-text>
       <b-row class="inside-cards">

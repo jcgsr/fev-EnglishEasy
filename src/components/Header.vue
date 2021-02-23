@@ -2,7 +2,7 @@
   <div class="shadow">
     <b-navbar toggleable="lg" type="dark" variant="danger">
       <router-link to="/">
-        <b-navbar-brand>English Easy</b-navbar-brand>
+        <b-navbar-brand>English? Easy...</b-navbar-brand>
       </router-link>
 
       <!-- Right aligned nav items -->

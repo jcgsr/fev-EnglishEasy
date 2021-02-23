@@ -9,14 +9,16 @@
           variant="danger"
           class="m-md-4 mb-2 shadow"
           size="lg"
-          
         >
           <b-dropdown-item>
             <router-link to="/subj">Subject Pronouns</router-link>
           </b-dropdown-item>
- 
+
           <b-dropdown-item>
             <router-link to="/be">To Be</router-link>
+          </b-dropdown-item>
+          <b-dropdown-item>
+            <router-link to="/articles">Articles</router-link>
           </b-dropdown-item>
         </b-dropdown>
       </b-col>
@@ -27,7 +29,6 @@
           variant="danger"
           class="m-md-4 mb-2 shadow"
           size="lg"
-          
         >
           <b-dropdown-item>
             <router-link to="/be">To Be</router-link>
@@ -43,7 +44,6 @@
           variant="danger"
           class="m-md-4 mb-2 shadow"
           size="lg"
-          
         >
           <b-dropdown-item>
             <router-link to="/be">To Be</router-link>
@@ -59,7 +59,6 @@
           variant="danger"
           class="m-md-4 shadow"
           size="lg"
-         
         >
           <b-dropdown-item>
             <router-link to="/be">To Be</router-link>

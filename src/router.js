@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Info from "./components/Info";
 import Be from "./components/sexto/Be";
 import SubjectPronouns from "./components/sexto/SubjectPronouns";
+import Articles from "./components/sexto/Articles";
 
 Vue.use(Router);
 
@@ -46,6 +47,15 @@ export default new Router({
       meta: {
         auth: false,
         title: "SubjectPronoun",
+      },
+    },
+    {
+      path: "/articles",
+      name: "articles",
+      component: Articles,
+      meta: {
+        auth: false,
+        title: "Articles",
       },
     },
   ],
