@@ -6,6 +6,7 @@ import Info from "./components/Info";
 import Be from "./components/sexto/Be";
 import SubjectPronouns from "./components/sexto/SubjectPronouns";
 import Articles from "./components/sexto/Articles";
+import PossessiveAdj from "./components/sexto/PossessiveAdj";
 
 Vue.use(Router);
 
@@ -56,6 +57,15 @@ export default new Router({
       meta: {
         auth: false,
         title: "Articles",
+      },
+    },
+    {
+      path: "/possessive-adj",
+      name: "possessive-adj",
+      component: PossessiveAdj,
+      meta: {
+        auth: false,
+        title: "Possessive Adjectives",
       },
     },
   ],
