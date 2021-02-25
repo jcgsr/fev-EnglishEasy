@@ -21,13 +21,20 @@
             <router-link to="/articles">Articles</router-link>
           </b-dropdown-item>
           <b-dropdown-item>
-            <router-link to="/possessive-adj">Possessive Adjectives</router-link>
+            <router-link to="/possessive-adj"
+              >Possessive Adjectives</router-link
+            >
           </b-dropdown-item>
           <b-dropdown-item>
             <router-link to="/numbers">Numbers</router-link>
           </b-dropdown-item>
           <b-dropdown-item>
             <router-link to="/genitive">Genitive Case</router-link>
+          </b-dropdown-item>
+          <b-dropdown-item>
+            <router-link to="/demonstratives"
+              >Demonstrative Pronouns</router-link
+            >
           </b-dropdown-item>
         </b-dropdown>
       </b-col>

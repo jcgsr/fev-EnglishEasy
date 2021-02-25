@@ -9,6 +9,7 @@ import Articles from "./components/sexto/Articles";
 import PossessiveAdj from "./components/sexto/PossessiveAdj";
 import Numbers from "./components/sexto/Numbers";
 import Genitive from "./components/sexto/Genitive";
+import Demonstratives from "./components/sexto/Demonstratives";
 
 Vue.use(Router);
 
@@ -86,6 +87,15 @@ export default new Router({
       meta: {
         auth: false,
         title: "Genitive Case",
+      },
+    },
+    {
+      path: "/demonstratives",
+      name: "demonstratives",
+      component: Demonstratives,
+      meta: {
+        auth: false,
+        title: "Demonstrative Pronouns",
       },
     },
   ],

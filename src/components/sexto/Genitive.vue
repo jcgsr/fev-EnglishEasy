@@ -46,8 +46,7 @@
                   Lennon<strong class="text-primary">'s</strong>, Jagger<strong class="text-primary">'s</strong> and Parypa<strong class="text-primary">'s</strong> bands. (As bandas <strong class="text-primary">de</strong> Lennon, <strong class="text-primary">de</strong> Jagger e <strong class="text-primary">de</strong> Parypa. = Cada um tem uma banda diferente.)
                 </li>
               </ul>
-                </p>
-        
+                </p>        
         </div>
       </b-card-text>
       
