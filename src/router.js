@@ -8,6 +8,7 @@ import SubjectPronouns from "./components/sexto/SubjectPronouns";
 import Articles from "./components/sexto/Articles";
 import PossessiveAdj from "./components/sexto/PossessiveAdj";
 import Numbers from "./components/sexto/Numbers";
+import Genitive from "./components/sexto/Genitive";
 
 Vue.use(Router);
 
@@ -76,6 +77,15 @@ export default new Router({
       meta: {
         auth: false,
         title: "Ordinal Numbers",
+      },
+    },
+    {
+      path: "/genitive",
+      name: "genitive",
+      component: Genitive,
+      meta: {
+        auth: false,
+        title: "Genitive Case",
       },
     },
   ],

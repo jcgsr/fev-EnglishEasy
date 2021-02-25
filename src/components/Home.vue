@@ -26,6 +26,9 @@
           <b-dropdown-item>
             <router-link to="/numbers">Numbers</router-link>
           </b-dropdown-item>
+          <b-dropdown-item>
+            <router-link to="/genitive">Genitive Case</router-link>
+          </b-dropdown-item>
         </b-dropdown>
       </b-col>
       <b-col md="3">
