@@ -39,6 +39,9 @@
           <b-dropdown-item>
             <router-link to="/therebe">There To Be</router-link>
           </b-dropdown-item>
+          <b-dropdown-item>
+            <router-link to="/presentsimple">Present Simple</router-link>
+          </b-dropdown-item>
         </b-dropdown>
       </b-col>
       <b-col md="3">
@@ -111,8 +114,10 @@ h1 {
   text-align: center;
 }
 .dropdown-menu > li > a:hover {
-  background-color: blue;
-  color: white;
+  background-color: red;
+}
+a:hover {
+  color: white !important;
 }
 .dropdown-menu ul {
   background-color: gray;

@@ -9,7 +9,7 @@
       Os adjetivos possessivos são usados para mostrar a <strong class="text-primary">posse</strong> ou <strong class="text-primary">propriedade</strong> de algo. Embora os utilizemos quando nos referimos a pessoas, é mais no sentido de relacionamento do que de posse. Podem ser usados tanto no singular quanto no plural. Confere a tabela abaixo:
         </p>
       </b-card-text>
-      <b-row class="inside-cards">
+      <b-row>
         <b-col>
           <b-card class="shadow mb-2 cards">
             <b-table class="text-danger" striped hover :items="items">
@@ -45,5 +45,3 @@ export default {
     }
 };
 </script>
-
-<style></style>

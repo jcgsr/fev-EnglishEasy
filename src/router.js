@@ -11,6 +11,7 @@ import Numbers from "./components/sexto/Numbers";
 import Genitive from "./components/sexto/Genitive";
 import Demonstratives from "./components/sexto/Demonstratives";
 import ThereBe from "./components/sexto/ThereBe";
+import PresentSimple from "./components/sexto/PresentSimple";
 
 Vue.use(Router);
 
@@ -106,6 +107,15 @@ export default new Router({
       meta: {
         auth: false,
         title: "There To Be",
+      },
+    },
+    {
+      path: "/presentsimple",
+      name: "presentsimple",
+      component: PresentSimple,
+      meta: {
+        auth: false,
+        title: "Present Simple",
       },
     },
   ],
