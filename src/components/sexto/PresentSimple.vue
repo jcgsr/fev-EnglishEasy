@@ -104,7 +104,7 @@
           <li><strong>Does</strong> he live here? (Ele mora aqui?)</li>
         </ol>
         Confere a conjugação completa abaixo do verbo <em>to die</em> (morrer):
-      </div>
+  
       <b-row>
         <b-col>
           <b-card class="shadow mb-2 cards">
@@ -128,7 +128,7 @@
           </b-card>
         </b-col>
       </b-row>
-
+    </div>
 
     </b-card-text>
   </b-card>
@@ -178,7 +178,7 @@ export default {
   },
 };
 </script>
-<style scope>
+<style scoped>
 .rules {
   text-align: left;
 }

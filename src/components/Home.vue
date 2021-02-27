@@ -26,7 +26,7 @@
           >
         </b-dropdown-item>
         <b-dropdown-item>
-          <router-link to="/numbers">Numbers</router-link>
+          <router-link to="/numbers">Cardinal Numbers</router-link>
         </b-dropdown-item>
         <b-dropdown-item>
           <router-link to="/genitive">Genitive Case</router-link>
@@ -47,6 +47,9 @@
         </b-dropdown-item>
           <b-dropdown-item>
             <router-link to="/plurals">Plurals</router-link>
+          </b-dropdown-item> 
+          <b-dropdown-item>
+            <router-link to="/presentcontinuous">Present Continuous</router-link>
           </b-dropdown-item>
         </b-dropdown>
       </b-col>

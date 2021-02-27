@@ -12,7 +12,7 @@
             s</strong> ao substantivo.
           </li>        
 
-          <table class="mt-2 mb-2">
+          <table class="mt-4 mb-4">
             <tbody>
               <tr>
                 <th>Singular</th>
@@ -31,7 +31,7 @@
           <li>Casos especiais:
             <ul type="square">
               <li>Se o substantivo terminar com <strong class="text-primary">s, ss, sh, ch, x, o:</strong> deve-se adicionar <strong class="text-primary">es</strong></li>
-              <table class="mt-2 mb-2">
+              <table class="mt-4 mb-4">
                 <tbody>
                   <tr>
                     <th>Singular</th>
@@ -64,7 +64,7 @@
                 </tbody>
               </table>
               <li>Se o substantivo terminar com <em class="text-primary">consoante</em> + <strong class="text-primary">y</strong>, retira-se o <strong>y</strong> coloca-se <strong class="text-primary">ies</strong>.</li>
-              <table class="mt-2 mb-2">
+              <table class="mt-4 mb-4">
                 <tbody>
                   <tr>
                     <th>Singular</th>
@@ -83,7 +83,7 @@
             </ul>
           </li>
           <li>Irregulares</li> 
-          <table class="mt-2 mb-2">
+          <table class="mt-4 mb-4">
             <tbody>
               <tr>
                 <th>Singular</th>
@@ -134,9 +134,9 @@ export default {
   },
 };
 </script>
-<style scope>
+<style scoped>
 .rules {
-  text-align: left;
+  text-align: center;
 }
 td,
 th,

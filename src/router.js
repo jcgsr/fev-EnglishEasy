@@ -14,6 +14,7 @@ import ThereBe from "./components/sexto/ThereBe";
 import PresentSimple from "./components/sexto/PresentSimple";
 import PrepositionPlace from "./components/sexto/PrepositionPlace";
 import Plurals from "./components/sexto/Plurals";
+import PresentContinuous from "./components/sexto/PresentContinuous";
 
 Vue.use(Router);
 
@@ -136,6 +137,15 @@ export default new Router({
       meta: {
         auth: false,
         title: "Plurals",
+      },
+    },
+    {
+      path: "/presentcontinuous",
+      name: "presentcontinuous",
+      component: PresentContinuous,
+      meta: {
+        auth: false,
+        title: "Present Continuous",
       },
     },
   ],
