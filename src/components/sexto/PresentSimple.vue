@@ -182,4 +182,5 @@ export default {
 .rules {
   text-align: left;
 }
+
 </style>
