@@ -45,6 +45,9 @@
             <b-dropdown-item>
               <router-link to="/prepositionplace">Preposition of Place</router-link>
             </b-dropdown-item>
+            <b-dropdown-item>
+              <router-link to="/plurals">Plurals</router-link>
+            </b-dropdown-item>
 
           </b-nav-item-dropdown>
           <b-nav-item right>

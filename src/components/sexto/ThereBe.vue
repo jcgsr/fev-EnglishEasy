@@ -36,7 +36,7 @@
 <script>
 import Header6 from "./Header6";
 export default {
-  name: "There To Be",
+  name: "ThereToBe",
   components: {
     Header6,
   },

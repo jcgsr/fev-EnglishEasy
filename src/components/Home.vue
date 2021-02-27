@@ -4,96 +4,99 @@
     <b-row>
       <b-col md="3">
         <b-dropdown
-          id="dropdown-1"
-          text="6º Ano"
-          variant="danger"
-          class="m-md-4 mb-2 shadow"
-          size="lg"
+        id="dropdown-1"
+        text="6º Ano"
+        variant="danger"
+        class="m-md-4 mb-2 shadow"
+        size="lg"
         >
-          <b-dropdown-item>
-            <router-link to="/subj">Subject Pronouns</router-link>
-          </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/subj">Subject Pronouns</router-link>
+        </b-dropdown-item>
 
+        <b-dropdown-item>
+          <router-link to="/be">To Be</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/articles">Articles</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/possessive-adj"
+          >Possessive Adjectives</router-link
+          >
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/numbers">Numbers</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/genitive">Genitive Case</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/demonstratives"
+          >Demonstrative Pronouns</router-link
+          >
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/therebe">There To Be</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/presentsimple">Present Simple</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/prepositionplace">Preposition of Place</router-link>
+        </b-dropdown-item>
           <b-dropdown-item>
-            <router-link to="/be">To Be</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/articles">Articles</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/possessive-adj"
-              >Possessive Adjectives</router-link
-            >
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/numbers">Numbers</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/genitive">Genitive Case</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/demonstratives"
-              >Demonstrative Pronouns</router-link
-            >
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/therebe">There To Be</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/presentsimple">Present Simple</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/prepositionplace">Preposition of Place</router-link>
+            <router-link to="/plurals">Plurals</router-link>
           </b-dropdown-item>
         </b-dropdown>
       </b-col>
       <b-col md="3">
         <b-dropdown
-          id="dropdown-1"
-          text="7º Ano"
-          variant="danger"
-          class="m-md-4 mb-2 shadow"
-          size="lg"
+        id="dropdown-1"
+        text="7º Ano"
+        variant="danger"
+        class="m-md-4 mb-2 shadow"
+        size="lg"
         >
-          <b-dropdown-item>
-            <router-link to="/be">To Be</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>Second Action</b-dropdown-item>
-          <b-dropdown-item>Third Action</b-dropdown-item>
-        </b-dropdown>
-      </b-col>
-      <b-col md="3">
-        <b-dropdown
-          id="dropdown-1"
-          text="8º Ano"
-          variant="danger"
-          class="m-md-4 mb-2 shadow"
-          size="lg"
-        >
-          <b-dropdown-item>
-            <router-link to="/be">To Be</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>Second Action</b-dropdown-item>
-          <b-dropdown-item>Third Action</b-dropdown-item>
-        </b-dropdown>
-      </b-col>
-      <b-col md="3">
-        <b-dropdown
-          id="dropdown-1"
-          text="9º Ano"
-          variant="danger"
-          class="m-md-4 shadow"
-          size="lg"
-        >
-          <b-dropdown-item>
-            <router-link to="/be">To Be</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>Second Action</b-dropdown-item>
-          <b-dropdown-item>Third Action</b-dropdown-item>
-        </b-dropdown>
-      </b-col>
-    </b-row>
-  </b-container>
+        <b-dropdown-item>
+          <router-link to="/be">To Be</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>Second Action</b-dropdown-item>
+        <b-dropdown-item>Third Action</b-dropdown-item>
+      </b-dropdown>
+    </b-col>
+    <b-col md="3">
+      <b-dropdown
+      id="dropdown-1"
+      text="8º Ano"
+      variant="danger"
+      class="m-md-4 mb-2 shadow"
+      size="lg"
+      >
+      <b-dropdown-item>
+        <router-link to="/be">To Be</router-link>
+      </b-dropdown-item>
+      <b-dropdown-item>Second Action</b-dropdown-item>
+      <b-dropdown-item>Third Action</b-dropdown-item>
+    </b-dropdown>
+  </b-col>
+  <b-col md="3">
+    <b-dropdown
+    id="dropdown-1"
+    text="9º Ano"
+    variant="danger"
+    class="m-md-4 shadow"
+    size="lg"
+    >
+    <b-dropdown-item>
+      <router-link to="/be">To Be</router-link>
+    </b-dropdown-item>
+    <b-dropdown-item>Second Action</b-dropdown-item>
+    <b-dropdown-item>Third Action</b-dropdown-item>
+  </b-dropdown>
+</b-col>
+</b-row>
+</b-container>
 </template>
 
 <script>

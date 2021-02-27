@@ -13,6 +13,7 @@ import Demonstratives from "./components/sexto/Demonstratives";
 import ThereBe from "./components/sexto/ThereBe";
 import PresentSimple from "./components/sexto/PresentSimple";
 import PrepositionPlace from "./components/sexto/PrepositionPlace";
+import Plurals from "./components/sexto/Plurals";
 
 Vue.use(Router);
 
@@ -20,113 +21,122 @@ export default new Router({
   mode: "history",
   linkExactActiveClass: "link-active",
   routes: [
-  {
-    path: "/",
-    name: "home",
-    component: Home,
-    meta: {
-      auth: false,
-      title: "English Easy",
+    {
+      path: "/",
+      name: "home",
+      component: Home,
+      meta: {
+        auth: false,
+        title: "English Easy",
+      },
     },
-  },
-  {
-    path: "/info",
-    name: "info",
-    component: Info,
-    meta: {
-      auth: false,
-      title: "Info",
+    {
+      path: "/info",
+      name: "info",
+      component: Info,
+      meta: {
+        auth: false,
+        title: "Info",
+      },
     },
-  },
-  {
-    path: "/be",
-    name: "be",
-    component: Be,
-    meta: {
-      auth: false,
-      title: "To Be",
+    {
+      path: "/be",
+      name: "be",
+      component: Be,
+      meta: {
+        auth: false,
+        title: "To Be",
+      },
     },
-  },
-  {
-    path: "/subj",
-    name: "subj",
-    component: SubjectPronouns,
-    meta: {
-      auth: false,
-      title: "SubjectPronoun",
+    {
+      path: "/subj",
+      name: "subj",
+      component: SubjectPronouns,
+      meta: {
+        auth: false,
+        title: "SubjectPronoun",
+      },
     },
-  },
-  {
-    path: "/articles",
-    name: "articles",
-    component: Articles,
-    meta: {
-      auth: false,
-      title: "Articles",
+    {
+      path: "/articles",
+      name: "articles",
+      component: Articles,
+      meta: {
+        auth: false,
+        title: "Articles",
+      },
     },
-  },
-  {
-    path: "/possessive-adj",
-    name: "possessive-adj",
-    component: PossessiveAdj,
-    meta: {
-      auth: false,
-      title: "Possessive Adjectives",
+    {
+      path: "/possessive-adj",
+      name: "possessive-adj",
+      component: PossessiveAdj,
+      meta: {
+        auth: false,
+        title: "Possessive Adjectives",
+      },
     },
-  },
-  {
-    path: "/numbers",
-    name: "numbers",
-    component: Numbers,
-    meta: {
-      auth: false,
-      title: "Ordinal Numbers",
+    {
+      path: "/numbers",
+      name: "numbers",
+      component: Numbers,
+      meta: {
+        auth: false,
+        title: "Ordinal Numbers",
+      },
     },
-  },
-  {
-    path: "/genitive",
-    name: "genitive",
-    component: Genitive,
-    meta: {
-      auth: false,
-      title: "Genitive Case",
+    {
+      path: "/genitive",
+      name: "genitive",
+      component: Genitive,
+      meta: {
+        auth: false,
+        title: "Genitive Case",
+      },
     },
-  },
-  {
-    path: "/demonstratives",
-    name: "demonstratives",
-    component: Demonstratives,
-    meta: {
-      auth: false,
-      title: "Demonstrative Pronouns",
+    {
+      path: "/demonstratives",
+      name: "demonstratives",
+      component: Demonstratives,
+      meta: {
+        auth: false,
+        title: "Demonstrative Pronouns",
+      },
     },
-  },
-  {
-    path: "/therebe",
-    name: "therebe",
-    component: ThereBe,
-    meta: {
-      auth: false,
-      title: "There To Be",
+    {
+      path: "/therebe",
+      name: "therebe",
+      component: ThereBe,
+      meta: {
+        auth: false,
+        title: "There To Be",
+      },
     },
-  },
-  {
-    path: "/presentsimple",
-    name: "presentsimple",
-    component: PresentSimple,
-    meta: {
-      auth: false,
-      title: "Present Simple",
+    {
+      path: "/presentsimple",
+      name: "presentsimple",
+      component: PresentSimple,
+      meta: {
+        auth: false,
+        title: "Present Simple",
+      },
     },
-  },
-  {
-    path: "/prepositionplace",
-    name: "prepositionplace",
-    component: PrepositionPlace,
-    meta: {
-      auth: false,
-      title: "Preposition of Place",
+    {
+      path: "/prepositionplace",
+      name: "prepositionplace",
+      component: PrepositionPlace,
+      meta: {
+        auth: false,
+        title: "Preposition of Place",
+      },
     },
-  },
+    {
+      path: "/plurals",
+      name: "plurals",
+      component: Plurals,
+      meta: {
+        auth: false,
+        title: "Plurals",
+      },
+    },
   ],
 });
