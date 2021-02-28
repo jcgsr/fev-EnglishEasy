@@ -54,6 +54,9 @@
             <b-dropdown-item>
               <router-link to="/have">To Have</router-link>
             </b-dropdown-item>
+            <b-dropdown-item>
+              <router-link to="/tellingtime">Telling Time</router-link>
+            </b-dropdown-item>
 
           </b-nav-item-dropdown>
           <b-nav-item right>

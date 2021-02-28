@@ -16,6 +16,7 @@ import PrepositionPlace from "./components/sexto/PrepositionPlace";
 import Plurals from "./components/sexto/Plurals";
 import PresentContinuous from "./components/sexto/PresentContinuous";
 import Have from "./components/sexto/Have";
+import TellingTime from "./components/sexto/TellingTime";
 
 Vue.use(Router);
 
@@ -156,6 +157,15 @@ export default new Router({
     meta: {
       auth: false,
       title: "To Have",
+    },
+  },
+  {
+    path: "/tellingtime",
+    name: "tellingtime",
+    component: TellingTime,
+    meta: {
+      auth: false,
+      title: "Telling Time",
     },
   },
 
