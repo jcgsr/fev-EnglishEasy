@@ -57,6 +57,9 @@
           <b-dropdown-item>
             <router-link to="/tellingtime">Telling Time</router-link>
           </b-dropdown-item>
+          <b-dropdown-item>
+            <router-link to="/ordinal">Ordinal Numbers</router-link>
+          </b-dropdown-item>
         </b-dropdown>
       </b-col>
       <b-col md="3">

@@ -17,6 +17,7 @@ import Plurals from "./components/sexto/Plurals";
 import PresentContinuous from "./components/sexto/PresentContinuous";
 import Have from "./components/sexto/Have";
 import TellingTime from "./components/sexto/TellingTime";
+import Ordinal from "./components/sexto/Ordinal";
 
 Vue.use(Router);
 
@@ -166,6 +167,15 @@ export default new Router({
     meta: {
       auth: false,
       title: "Telling Time",
+    },
+  },
+  {
+    path: "/ordinal",
+    name: "ordinal",
+    component: Ordinal,
+    meta: {
+      auth: false,
+      title: "Ordinal Numbers",
     },
   },
 

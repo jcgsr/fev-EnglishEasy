@@ -25,7 +25,7 @@
 <script>
 import Header6 from "./Header6";
 export default {
-  name: "PossessiveAdj",
+  name: "CardinalNumbers",
   components: {
     Header6,
   },

@@ -81,7 +81,7 @@
 <script>
 import Header6 from "./Header6.vue";
 export default {
-  name: "Articles",
+  name: "TellingTime",
   components: { Header6 },
 };
 </script>
