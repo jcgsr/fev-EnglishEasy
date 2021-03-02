@@ -3,6 +3,7 @@ import Router from "vue-router";
 
 import Home from "./components/Home";
 import Info from "./components/Info";
+// Sexto
 import Be from "./components/sexto/Be";
 import SubjectPronouns from "./components/sexto/SubjectPronouns";
 import Articles from "./components/sexto/Articles";
@@ -18,6 +19,7 @@ import PresentContinuous from "./components/sexto/PresentContinuous";
 import Have from "./components/sexto/Have";
 import TellingTime from "./components/sexto/TellingTime";
 import Ordinal from "./components/sexto/Ordinal";
+import Dates from "./components/sexto/Dates";
 
 Vue.use(Router);
 
@@ -176,6 +178,15 @@ export default new Router({
     meta: {
       auth: false,
       title: "Ordinal Numbers",
+    },
+  },
+   {
+    path: "/dates",
+    name: "dates",
+    component: Dates,
+    meta: {
+      auth: false,
+      title: "Dates",
     },
   },
 
