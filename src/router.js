@@ -21,6 +21,7 @@ import TellingTime from "./components/sexto/TellingTime";
 import Ordinal from "./components/sexto/Ordinal";
 import Dates from "./components/sexto/Dates";
 import AdverbsFrequency from "./components/sexto/AdverbsFrequency";
+import Imperative from "./components/sexto/Imperative";
 
 Vue.use(Router);
 
@@ -197,6 +198,15 @@ export default new Router({
     meta: {
       auth: false,
       title: "Adverbs of Frequency",
+    },
+  },
+  {
+    path: "/imperative",
+    name: "imperative",
+    component: Imperative,
+    meta: {
+      auth: false,
+      title: "Imperative",
     },
   },
 

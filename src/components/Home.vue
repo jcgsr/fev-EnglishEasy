@@ -66,6 +66,9 @@
         <b-dropdown-item>
           <router-link to="/advfrequency">Adverbs of Frequency</router-link>
         </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/imperative">Imperative</router-link>
+        </b-dropdown-item>
       </b-dropdown>
     </b-col>
     <b-col md="3">
