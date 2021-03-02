@@ -45,45 +45,33 @@
         <b-dropdown-item>
           <router-link to="/prepositionplace">Preposition of Place</router-link>
         </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/plurals">Plurals</router-link>
-          </b-dropdown-item> 
-          <b-dropdown-item>
-            <router-link to="/presentcontinuous">Present Continuous</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/have">To Have</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/tellingtime">Telling Time</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/ordinal">Ordinal Numbers</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/dates">Dates</router-link>
-          </b-dropdown-item>
-        </b-dropdown>
-      </b-col>
-      <b-col md="3">
-        <b-dropdown
-        id="dropdown-1"
-        text="7º Ano"
-        variant="danger"
-        class="m-md-4 mb-2 shadow"
-        size="lg"
-        >
         <b-dropdown-item>
-          <router-link to="/be">To Be</router-link>
+          <router-link to="/plurals">Plurals</router-link>
+        </b-dropdown-item> 
+        <b-dropdown-item>
+          <router-link to="/presentcontinuous">Present Continuous</router-link>
         </b-dropdown-item>
-        <b-dropdown-item>Second Action</b-dropdown-item>
-        <b-dropdown-item>Third Action</b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/have">To Have</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/tellingtime">Telling Time</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/ordinal">Ordinal Numbers</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/dates">Dates</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/advfrequency">Adverbs of Frequency</router-link>
+        </b-dropdown-item>
       </b-dropdown>
     </b-col>
     <b-col md="3">
       <b-dropdown
       id="dropdown-1"
-      text="8º Ano"
+      text="7º Ano"
       variant="danger"
       class="m-md-4 mb-2 shadow"
       size="lg"
@@ -98,9 +86,9 @@
   <b-col md="3">
     <b-dropdown
     id="dropdown-1"
-    text="9º Ano"
+    text="8º Ano"
     variant="danger"
-    class="m-md-4 shadow"
+    class="m-md-4 mb-2 shadow"
     size="lg"
     >
     <b-dropdown-item>
@@ -109,6 +97,21 @@
     <b-dropdown-item>Second Action</b-dropdown-item>
     <b-dropdown-item>Third Action</b-dropdown-item>
   </b-dropdown>
+</b-col>
+<b-col md="3">
+  <b-dropdown
+  id="dropdown-1"
+  text="9º Ano"
+  variant="danger"
+  class="m-md-4 shadow"
+  size="lg"
+  >
+  <b-dropdown-item>
+    <router-link to="/be">To Be</router-link>
+  </b-dropdown-item>
+  <b-dropdown-item>Second Action</b-dropdown-item>
+  <b-dropdown-item>Third Action</b-dropdown-item>
+</b-dropdown>
 </b-col>
 </b-row>
 </b-container>

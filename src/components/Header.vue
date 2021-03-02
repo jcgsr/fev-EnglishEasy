@@ -63,7 +63,12 @@
             <b-dropdown-item>
               <router-link to="/dates">Dates</router-link>
             </b-dropdown-item>
+            <b-dropdown-item>
+              <router-link to="/advfrequency">Adverbs of Frequency</router-link>
+            </b-dropdown-item>
           </b-nav-item-dropdown>
+
+
           <b-nav-item right>
             <!-- Using 'button-content' slot -->
 

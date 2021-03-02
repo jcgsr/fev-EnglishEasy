@@ -20,6 +20,7 @@ import Have from "./components/sexto/Have";
 import TellingTime from "./components/sexto/TellingTime";
 import Ordinal from "./components/sexto/Ordinal";
 import Dates from "./components/sexto/Dates";
+import AdverbsFrequency from "./components/sexto/AdverbsFrequency";
 
 Vue.use(Router);
 
@@ -187,6 +188,15 @@ export default new Router({
     meta: {
       auth: false,
       title: "Dates",
+    },
+  },
+  {
+    path: "/advfrequency",
+    name: "advfrequency",
+    component: AdverbsFrequency,
+    meta: {
+      auth: false,
+      title: "Adverbs of Frequency",
     },
   },
 
