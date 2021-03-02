@@ -85,7 +85,7 @@ export default new Router({
     component: Numbers,
     meta: {
       auth: false,
-      title: "Ordinal Numbers",
+      title: "Cardinal Numbers",
     },
   },
   {

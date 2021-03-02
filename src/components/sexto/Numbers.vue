@@ -18,6 +18,12 @@
           </b-card>
         </b-col>
       </b-row>
+      <h5>Dicas</h5>
+      <ul>
+        <li>do 13 até o 19, o uso do sufixo inglês <strong>teen</strong> significa <strong>"10"</strong>. Por isso, tenta lembra que  estás juntando o 3, 4, 5, 6, 7, 8, 9 com 10. Ex.: 4 + 10 = 14 (four + <strong>teen</strong> = four<strong>teen</strong>). Só cuidado com o <strong>13</strong> e <strong>15</strong> que muda um pouquinho a escrita do <strong>three</strong> e do <strong>five</strong>. O restante é só acrescentar <strong>teen</strong> ao número.</li>
+        <li>o sufixo inglês <strong>ty</strong> das dezenas (twen<strong>ty</strong>, thir<strong>ty</strong> etc...) equivale ao nosso <strong>"inte", "inta", "enta"</strong> do 20 até 90.</li>
+        <li><strong>hundred</strong> significa <strong>centena</strong>, então <strong>two hundred</strong> (sem "s") = duas centenas, ou seja, duzentos. Com essa última dica, tu já podes escrever até 999 em inglês 😁 seguindo a tabela acima. Por exemplo: 888 = eight hundred (and) eighty-eight.</li>
+      </ul>
     </b-card>
   </b-container>
 </template>
