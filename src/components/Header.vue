@@ -7,6 +7,7 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <!-- Right aligned nav items -->
+      <!-- Sexto -->
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-item-dropdown text="6º" right>
@@ -69,39 +70,50 @@
             <b-dropdown-item>
               <router-link to="/imperative">Imperative</router-link>
             </b-dropdown-item>
+            <!-- Fim Sexto -->
 
+            <!-- Sétimo -->
           </b-nav-item-dropdown>
-          <b-nav-item right>
-            <!-- Using 'button-content' slot -->
+          <b-collapse id="nav-collapse" is-nav>
+            <b-navbar-nav class="ml-auto">
+              <b-nav-item-dropdown text="7º" right>
+                <b-dropdown-item>
+                  <router-link to="/pastsimple">Past Simple</router-link>
+                </b-dropdown-item>
+              </b-nav-item-dropdown>
+            </b-navbar-nav>
+          </b-collapse>
+                <b-nav-item right>
+                  <!-- Using 'button-content' slot -->
 
-            <template>
-              <router-link to="/info">
-                <em> <i class="fas fa-info"></i></em>
-              </router-link>
-            </template>
-          </b-nav-item>
-        </b-navbar-nav>
-      </b-collapse>
-    </b-navbar>
-  </div>
-</template>
+                  <template>
+                    <router-link to="/info">
+                      <em> <i class="fas fa-info"></i></em>
+                    </router-link>
+                  </template>
+                </b-nav-item>
+              </b-navbar-nav>
+            </b-collapse>
+          </b-navbar>
+        </div>
+      </template>
 
-<script>
-export default {
-  name: "Header",
-};
-</script>
-<style>
-i {
-  color: white;
-  font-size: 1.5rem;
-}
-.bg-danger {
-  background-color: rgb(241, 11, 11);
-}
-.navbar-dark .navbar-nav .nav-link {
-  color: white;
-  font-size: 1.5rem;
-}
-</style>
+      <script>
+      export default {
+        name: "Header",
+      };
+      </script>
+      <style>
+      i {
+        color: white;
+        font-size: 1.5rem;
+      }
+      .bg-danger {
+        background-color: rgb(241, 11, 11);
+      }
+      .navbar-dark .navbar-nav .nav-link {
+        color: white;
+        font-size: 1.5rem;
+      }
+      </style>
 

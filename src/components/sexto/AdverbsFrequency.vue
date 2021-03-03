@@ -25,7 +25,7 @@
 						<li>I <strong class="text-primary">never</strong> listen to pagode. <strong class="text-primary">Never!</strong> (Eu <strong class="text-primary">nunca</strong> escuto pacote. <strong class="text-primary">Nunca!</strong>)</li>
 						<li>I play the drums <strong class="text-primary">rarely</strong>. (eu <strong class="text-primary">raramente</strong> toco bateria.)</li>				
 					</ul>
-					<p>Se tu estás achando essa lista muito pequena, espertinho, ou já conheces todos esses advérbios, sabichão, e queres mais, donzela, vai aqui nesse <a :href="link"> site</a>.</p>
+					<p>Se tu estás achando essa lista muito pequena, espertinho, ou já conheces todos esses advérbios, sabichão, e queres mais, donzela, visita esse <a :href="link"> site</a>.</p>
 				</div>
 			</b-card-text>
 		</b-card>
@@ -61,5 +61,8 @@ export default {
 .rules {
 	text-align: left;
 }
-
+a:hover {
+	background-color: blue;
+	padding: .2rem;
+}
 </style>

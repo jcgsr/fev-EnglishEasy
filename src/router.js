@@ -3,6 +3,7 @@ import Router from "vue-router";
 
 import Home from "./components/Home";
 import Info from "./components/Info";
+
 // Sexto
 import Be from "./components/sexto/Be";
 import SubjectPronouns from "./components/sexto/SubjectPronouns";
@@ -22,6 +23,10 @@ import Ordinal from "./components/sexto/Ordinal";
 import Dates from "./components/sexto/Dates";
 import AdverbsFrequency from "./components/sexto/AdverbsFrequency";
 import Imperative from "./components/sexto/Imperative";
+// fim Sexto 
+
+import PastSimple from "./components/setimo/PastSimple"
+// Sétimo 
 
 Vue.use(Router);
 
@@ -47,6 +52,7 @@ export default new Router({
       title: "Info",
     },
   },
+// Sexto
   {
     path: "/be",
     name: "be",
@@ -209,6 +215,17 @@ export default new Router({
       title: "Imperative",
     },
   },
+  // Fim Sexto
 
+  // Sétimo
+{
+    path: "/pastSimple",
+    name: "pastSimple",
+    component: PastSimple,
+    meta: {
+      auth: false,
+      title: "Past Simple",
+    },
+  },
   ],
 });

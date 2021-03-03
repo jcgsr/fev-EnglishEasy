@@ -26,8 +26,8 @@
         Muitas vezes usamos advérbios de frequência como 
         <strong>às vezes, sempre e nunca</strong> com o presente simples:
         <ul>
-          <li>I <strong>sometimes</strong> 
-            <strong class="text-primary">go</strong> to the cinema. 
+          <li>I <strong>sometimes</strong>  
+             <strong class="text-primary"> go</strong> to the cinema. 
             (<strong>Às vezes</strong> eu <strong class="text-primary">vou</strong> 
           ao cinema.)</li>
         </ul>
@@ -72,10 +72,13 @@
     <h5>Negativa</h5>
     <p>
       <ul>
-        <li>O verbo sempre ficará em sua forma básica. Sempre! Nunca 
+        <li>
+          O verbo sempre ficará em sua forma básica. Sempre! Nunca 
           mudará! Ou seja, não recebe <strong>s, es, ies</strong>, pelo
-        contrário: se tiver algum desses sufixos, perde-os.</li>
-        <li>Deve-se usar os auxiliares <strong>do/does</strong>
+        contrário: se tiver algum desses sufixos, perde-os.
+      </li>
+        <li>
+          Deve-se usar os auxiliares <strong>do/does</strong>
           seguidos de <strong>not</strong> antes do verbo.
           <li><strong>do not = don't</strong> sempre com <strong>I, you,
           we, they</strong>.</li>

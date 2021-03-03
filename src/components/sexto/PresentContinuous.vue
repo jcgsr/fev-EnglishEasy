@@ -104,12 +104,7 @@ export default {
 	name: 'PreSentContinuous',
 	components: {
 		Header6
-	},
-	data () {
-		return {
-
-		}
-	}
+	},	
 }
 </script>
 
