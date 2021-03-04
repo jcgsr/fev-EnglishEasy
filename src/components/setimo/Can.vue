@@ -60,7 +60,7 @@
 <script>
 import Header7 from "./Header7.vue";
 export default {
-  name: "Be",
+  name: "Can",
   components: {
     Header7,
   },

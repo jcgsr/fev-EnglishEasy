@@ -29,6 +29,7 @@ import Imperative from "./components/sexto/Imperative";
 import PastSimple from "./components/setimo/PastSimple"
 import ObjectPronouns from "./components/setimo/ObjectPronouns"
 import Can from "./components/setimo/Can"
+import Could from "./components/setimo/Could"
 
 Vue.use(Router);
 
@@ -245,6 +246,15 @@ export default new Router({
     meta: {
       auth: false,
       title: "Can",
+    },
+  },
+   {
+    path: "/could",
+    name: "could",
+    component: Could,
+    meta: {
+      auth: false,
+      title: "Could",
     },
   },
   ],
