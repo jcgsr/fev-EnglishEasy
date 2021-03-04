@@ -86,6 +86,9 @@
       <b-dropdown-item>
         <router-link to="/objpronouns">Object Pronouns</router-link>
       </b-dropdown-item>
+      <b-dropdown-item>
+        <router-link to="/can">Can</router-link>
+      </b-dropdown-item>
 
     </b-dropdown>
   </b-col>

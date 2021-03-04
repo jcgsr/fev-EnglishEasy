@@ -28,6 +28,7 @@ import Imperative from "./components/sexto/Imperative";
 // Sétimo 
 import PastSimple from "./components/setimo/PastSimple"
 import ObjectPronouns from "./components/setimo/ObjectPronouns"
+import Can from "./components/setimo/Can"
 
 Vue.use(Router);
 
@@ -237,6 +238,14 @@ export default new Router({
       title: "Object Pronouns",
     },
   },
-
+  {
+    path: "/can",
+    name: "can",
+    component: Can,
+    meta: {
+      auth: false,
+      title: "Can",
+    },
+  },
   ],
 });
