@@ -71,6 +71,7 @@
         </b-dropdown-item>
       </b-dropdown>
     </b-col>
+    <!-- Sétimo -->
     <b-col md="3">
       <b-dropdown
       id="dropdown-1"
@@ -82,7 +83,10 @@
       <b-dropdown-item>
         <router-link to="/pastsimple">Past Simple</router-link>
       </b-dropdown-item>
-      
+      <b-dropdown-item>
+        <router-link to="/objpronouns">Object Pronouns</router-link>
+      </b-dropdown-item>
+
     </b-dropdown>
   </b-col>
   <b-col md="3">

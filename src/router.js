@@ -25,8 +25,9 @@ import AdverbsFrequency from "./components/sexto/AdverbsFrequency";
 import Imperative from "./components/sexto/Imperative";
 // fim Sexto 
 
-import PastSimple from "./components/setimo/PastSimple"
 // Sétimo 
+import PastSimple from "./components/setimo/PastSimple"
+import ObjectPronouns from "./components/setimo/ObjectPronouns"
 
 Vue.use(Router);
 
@@ -227,5 +228,15 @@ export default new Router({
       title: "Past Simple",
     },
   },
+  {
+    path: "/objpronouns",
+    name: "objpronouns",
+    component: ObjectPronouns,
+    meta: {
+      auth: false,
+      title: "Object Pronouns",
+    },
+  },
+
   ],
 });

@@ -80,9 +80,22 @@
                   </tr>                 
                 </tbody>
               </table>
+              <li>Se o substantivo terminar com <strong class="text-primary">f</strong> ou <strong class="text-primary">fe</strong>, retira-se <strong>f/fe</strong> e coloca-se <strong class="text-primary">ves</strong>.</li>
+              <table class="mt-4 mb-4">
+                <tbody>
+                  <tr>
+                    <th>Singular</th>
+                    <th>Plural</th>
+                  </tr>
+                  <tr>
+                    <td>wol<strong class="text-primary">f</strong></td>
+                    <td>wol<strong class="text-primary">ves</strong></td>
+                  </tr>
+                </tbody>
+              </table>
             </ul>
           </li>
-          <li>Irregulares</li> 
+          <li>Irregulares (mais usados)</li> 
           <table class="mt-4 mb-4">
             <tbody>
               <tr>
@@ -102,15 +115,33 @@
               </tr>  <tr>
                 <td>person</td>
                 <td><strong class="text-primary">people</strong></td>
-              </tr>  <tr>
+              </tr>  
+              <tr>
                 <td>foot</td>
                 <td><strong class="text-primary">feet</strong></td>
               </tr>
+              <tr>
+                <td>tooth</td>
+                <td><strong class="text-primary">teeth</strong></td>
+              </tr>
             </tbody>
           </table>  
-          Obs.: Quer saber o que significa cada um desses substantivos?  Vai no <a :href="link">Google Translator</a>, preguiça! &#128513;
-
-
+          <ul>
+            <li>Nunca mudam no plural (mais usados)</li>
+            <ol>
+              <li>sheep</li>
+              <li>fish</li>
+              <li>deer</li>
+              <li>swine</li>
+              <li>buffalo</li>
+              <li>shrimp</li>
+              <li>aircraft</li>
+              <li>spacecraft</li>
+            </ol>
+          </ul>        
+          <p>
+            Obs.: Quer saber o que significa cada um desses substantivos?  Vai no <a :href="link">Google Translator</a>, preguiça! &#128513;
+          </p>
         </ul>
       </p>   
     </div>
