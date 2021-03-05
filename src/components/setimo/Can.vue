@@ -2,7 +2,7 @@
   <b-container>
     <Header7 />
     <!-- component -->
-    <b-card class="shadow-lg">
+    <b-card class="shadow-lg mb-4">
       <b-card-title>Verb Can</b-card-title>
       <b-card-sub-title>Verbo Poder</b-card-sub-title>
       <b-card-text class="mt-2 md-w-75 text-center mx-auto">

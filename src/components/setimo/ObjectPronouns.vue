@@ -1,7 +1,7 @@
 <template>
   <b-container>
     <Header7 />
-    <b-card class="shadow-lg">
+    <b-card class="shadow-lg mb-4">
       <b-card-title>Object Pronouns</b-card-title>
       <b-card-sub-title>Pronomes Objetos</b-card-sub-title>
       <b-card-text class="mt-2 md-w-75 text-center mx-auto">

@@ -2,7 +2,7 @@
   <b-container>
     <Header7 />
     <!-- component -->
-    <b-card class="shadow-lg">
+    <b-card class="shadow-lg mb-4">
       <b-card-title>Verb Could</b-card-title>
       <b-card-sub-title>Verbo Podia/Poderia</b-card-sub-title>
       <b-card-text class="mt-2 md-w-75 text-center mx-auto">
@@ -46,7 +46,7 @@
 import Header7 from "./Header7.vue";
 export default {
   name: "Could",
-  componentsRIA: {
+  components: {
     Header7,
   },
   data() {

@@ -10,11 +10,10 @@
    background-color: red;
    color: white;
    font-size: smaller;
-   margin-top: 20rem;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
    .footer {
-      margin-top: 46rem;
+      margin-top: 10.7rem;
    }
 }
 </style>

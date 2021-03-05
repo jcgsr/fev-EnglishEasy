@@ -4,7 +4,7 @@
     <b-row>
       <b-col md="3">
         <b-dropdown
-        id="dropdown-1"
+
         text="6º Ano"
         variant="danger"
         class="m-md-4 mb-2 shadow"
@@ -73,8 +73,7 @@
     </b-col>
     <!-- Sétimo -->
     <b-col md="3">
-      <b-dropdown
-      id="dropdown-1"
+      <b-dropdown   
       text="7º Ano"
       variant="danger"
       class="m-md-4 mb-2 shadow"
@@ -96,8 +95,7 @@
     </b-dropdown>
   </b-col>
   <b-col md="3">
-    <b-dropdown
-    id="dropdown-1"
+    <b-dropdown    
     text="8º Ano"
     variant="danger"
     class="m-md-4 mb-2 shadow"
@@ -111,8 +109,7 @@
   </b-dropdown>
 </b-col>
 <b-col md="3">
-  <b-dropdown
-  id="dropdown-1"
+  <b-dropdown 
   text="9º Ano"
   variant="danger"
   class="m-md-4 shadow"
@@ -124,14 +121,43 @@
   <b-dropdown-item>Second Action</b-dropdown-item>
   <b-dropdown-item>Third Action</b-dropdown-item>
 </b-dropdown>
+
 </b-col>
 </b-row>
+<KinesisContainer>
+  <KinesisElement  :strength="40" type="depth">
+    <a :href="linkBrE" title="Pexels - BrE Bandeira">
+
+      <img class="brE mt-4 mb-4" src="../assets/brEflag.jpg" alt="Bandeira Inglesa">
+    </a>
+  </KinesisElement>
+</KinesisContainer>
+
+<KinesisContainer>
+  <KinesisElement :strength="20" type="depth">
+    <a href="linkAmE" title="Pexels - AmE Bandeira">
+      <img class="amE mb-4" src="../assets/ameFlag.jpg" alt="">
+    </a>
+  </KinesisElement>
+
+</KinesisContainer>
+
+
 </b-container>
 </template>
 
+
 <script>
+import { KinesisContainer, KinesisElement } from '../../node_modules/vue-kinesis/'
 export default {
   name: "Home",
+  components: { KinesisContainer, KinesisElement },
+  data() {
+    return {
+      linkBrE: 'https://pixabay.com/pt/illustrations/bandeira-do-reino-unido-union-jack-1443709/',
+      linkAmE: 'https://pixabay.com/pt/illustrations/grunge-desbotada-usado-pavilh%C3%A3o-1081668/'
+    }
+  }
 };
 </script>
 <style>
@@ -155,7 +181,19 @@ h1 {
 a:hover {
   color: white !important;
 }
-.dropdown-menu ul {
-  background-color: gray;
+/*
+.dropdown .dropdown-menu {
+ display: block;
+ background-color: white;
+ opacity: 0;
+ transition: all 400ms ease-in;
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+ }*/
+.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 0.9;
+ }
 </style>
