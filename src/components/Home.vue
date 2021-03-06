@@ -86,6 +86,9 @@
         <router-link to="/objpronouns">Object Pronouns</router-link>
       </b-dropdown-item>
       <b-dropdown-item>
+        <router-link to="/prepositiontime">Prepositions of Time</router-link>
+      </b-dropdown-item>
+      <b-dropdown-item>
         <router-link to="/can">Can</router-link>
       </b-dropdown-item>
       <b-dropdown-item>
@@ -181,19 +184,10 @@ h1 {
 a:hover {
   color: white !important;
 }
-/*
-.dropdown .dropdown-menu {
- display: block;
- background-color: white;
- opacity: 0;
- transition: all 400ms ease-in;
-}
+
 .dropdown:hover .dropdown-menu {
     display: block;
-    opacity: 1;
- }*/
-.dropdown:hover .dropdown-menu {
-    display: block;
-    opacity: 0.9;
+    opacity: 0.97;
  }
+
 </style>

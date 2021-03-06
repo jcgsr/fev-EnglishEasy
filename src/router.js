@@ -30,6 +30,7 @@ import PastSimple from "./components/setimo/PastSimple"
 import ObjectPronouns from "./components/setimo/ObjectPronouns"
 import Can from "./components/setimo/Can"
 import Could from "./components/setimo/Could"
+import PrepositionTime from "./components/setimo/PrepositionTime";
 
 Vue.use(Router);
 
@@ -143,7 +144,7 @@ export default new Router({
     component: PrepositionPlace,
     meta: {
       auth: false,
-      title: "Preposition of Place",
+      title: "Prepositions of Place",
     },
   },
   {
@@ -191,7 +192,7 @@ export default new Router({
       title: "Ordinal Numbers",
     },
   },
-   {
+  {
     path: "/dates",
     name: "dates",
     component: Dates,
@@ -221,7 +222,7 @@ export default new Router({
   // Fim Sexto
 
   // Sétimo
-{
+  {
     path: "/pastSimple",
     name: "pastSimple",
     component: PastSimple,
@@ -248,13 +249,22 @@ export default new Router({
       title: "Can",
     },
   },
-   {
+  {
     path: "/could",
     name: "could",
     component: Could,
     meta: {
       auth: false,
       title: "Could",
+    },
+  },
+  {
+    path: "/prepositiontime",
+    name: "prepositiontime",
+    component: PrepositionTime,
+    meta: {
+      auth: false,
+      title: "Prepositions of Time",
     },
   },
   ],
