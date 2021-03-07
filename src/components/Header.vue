@@ -23,7 +23,7 @@
             </b-dropdown-item>
             <b-dropdown-item>
               <router-link to="/possessive-adj"
-              >Possessive Adjectives</router-link
+                >Possessive Adjectives</router-link
               >
             </b-dropdown-item>
             <b-dropdown-item>
@@ -34,7 +34,7 @@
             </b-dropdown-item>
             <b-dropdown-item>
               <router-link to="/demonstratives"
-              >Demonstrative Pronouns</router-link
+                >Demonstrative Pronouns</router-link
               >
             </b-dropdown-item>
             <b-dropdown-item>
@@ -44,13 +44,17 @@
               <router-link to="/presentsimple">Present Simple</router-link>
             </b-dropdown-item>
             <b-dropdown-item>
-              <router-link to="/prepositionplace">Preposition of Place</router-link>
+              <router-link to="/prepositionplace"
+                >Preposition of Place</router-link
+              >
             </b-dropdown-item>
             <b-dropdown-item>
               <router-link to="/plurals">Plurals</router-link>
             </b-dropdown-item>
             <b-dropdown-item>
-              <router-link to="/presentcontinuous">Present Continuous</router-link>
+              <router-link to="/presentcontinuous"
+                >Present Continuous</router-link
+              >
             </b-dropdown-item>
             <b-dropdown-item>
               <router-link to="/have">To Have</router-link>
@@ -84,7 +88,9 @@
                   <router-link to="/objpronouns">Object Pronouns</router-link>
                 </b-dropdown-item>
                 <b-dropdown-item>
-                  <router-link to="/prepositiontime">Prepositions of Time</router-link>
+                  <router-link to="/prepositiontime"
+                    >Prepositions of Time</router-link
+                  >
                 </b-dropdown-item>
 
                 <b-dropdown-item>
@@ -95,6 +101,9 @@
                 </b-dropdown-item>
                 <b-dropdown-item>
                   <router-link to="/linkingwords">Linking Words</router-link>
+                </b-dropdown-item>
+                <b-dropdown-item>
+                  <router-link to="/bepast">To Be (Past)</router-link>
                 </b-dropdown-item>
               </b-nav-item-dropdown>
             </b-navbar-nav>

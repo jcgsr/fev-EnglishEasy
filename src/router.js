@@ -32,6 +32,7 @@ import Can from "./components/setimo/Can"
 import Could from "./components/setimo/Could"
 import PrepositionTime from "./components/setimo/PrepositionTime";
 import LinkingWords from "./components/setimo/LinkingWords";
+import BePast from "./components/setimo/BePast";
 
 Vue.use(Router);
 
@@ -275,6 +276,15 @@ export default new Router({
     meta: {
       auth: false,
       title: "Linking Words",
+    },
+  },
+  {
+    path: "/bepast",
+    name: "bepast",
+    component: BePast,
+    meta: {
+      auth: false,
+      title: "To Be (Past)",
     },
   },
 
