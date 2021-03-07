@@ -33,6 +33,7 @@ import Could from "./components/setimo/Could"
 import PrepositionTime from "./components/setimo/PrepositionTime";
 import LinkingWords from "./components/setimo/LinkingWords";
 import BePast from "./components/setimo/BePast";
+import PastContinuous from "./components/setimo/PastContinuous";
 
 Vue.use(Router);
 
@@ -285,6 +286,15 @@ export default new Router({
     meta: {
       auth: false,
       title: "To Be (Past)",
+    },
+  },
+  {
+    path: "/pastcontinuous",
+    name: "pastcontinuous",
+    component: PastContinuous,
+    meta: {
+      auth: false,
+      title: "Past Continuous",
     },
   },
 

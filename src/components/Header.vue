@@ -105,6 +105,11 @@
                 <b-dropdown-item>
                   <router-link to="/bepast">To Be (Past)</router-link>
                 </b-dropdown-item>
+                <b-dropdown-item>
+                  <router-link to="/pastcontinuous"
+                    >Past Continuous</router-link
+                  >
+                </b-dropdown-item>
               </b-nav-item-dropdown>
             </b-navbar-nav>
           </b-collapse>

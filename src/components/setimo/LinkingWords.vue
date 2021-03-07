@@ -55,25 +55,24 @@
 	</template>
 
 	<script>
-	import Header7 from './Header7'
-	export default {
-		name: 'LinkingWords',
-		components: {
-			Header7
-		},	
-	}
-	</script>
+import Header7 from "./Header7";
+export default {
+  name: "LinkingWords",
+  components: {
+    Header7,
+  },
+};
+</script>
 
 	<style scoped>
-	td,
-	th,
-	tr {
-		border: 1px solid red;
-		padding: 1rem;
-		text-align: left;
-	}
-	table {
-		margin: 0 auto;
-	}
-
-	</style>
+td,
+th,
+tr {
+  border: 1px solid red;
+  padding: 1rem;
+  text-align: left;
+}
+table {
+  margin: 0 auto;
+}
+</style>

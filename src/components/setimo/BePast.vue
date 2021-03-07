@@ -19,9 +19,9 @@
           por <strong>estava, estavam, estávamos</strong>. Outra coisa: não
           existe contração das formas <em>was, were</em> na afirmativa como
           existe no presente (<em>I'm, you're, he's, etc</em>). Na negativa,
-          pode ser tanto <strong>was not</strong> quanto
-          <strong>wasn't</strong>. Confere as tabelas abaixo para a conjugação
-          completa.
+          pode ser tanto <strong>was not, were not</strong> quanto
+          <strong>wasn't, weren't'</strong>. Confere as tabelas abaixo para a
+          conjugação completa.
         </p>
       </b-card-text>
 
@@ -105,7 +105,7 @@
 <script>
 import Header7 from "./Header7";
 export default {
-  name: "Be",
+  name: "BePast",
   components: {
     Header7,
   },

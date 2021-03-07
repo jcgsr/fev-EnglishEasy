@@ -1,18 +1,18 @@
 <template>
 	<b-container>
-		<Header6 />
+		<Header7 />
 		<b-card class="shadow-lg mb-4">
-			<b-card-title>Present Continuous</b-card-title>
-			<b-card-sub-title>Presente Contínuo (Gerúndio)</b-card-sub-title>
+			<b-card-title>Past Continuous</b-card-title>
+			<b-card-sub-title>Passado Contínuo (Gerúndio)</b-card-sub-title>
 			<b-card-text class="mt-2 md-w-75 text-center mx-auto">
-				<p>Usa-se o Presente Contínuo (gerúndio) quando a ação acontece no momento da fala. A característica mais forte é a terminação <strong class="text-primary">ing</strong>. que em português pode ser <strong class="text-primary">ando, endo, indo</strong>. Vê os exemplos:
+				<p>Usa-se o Passado Contínuo (gerúndio) quando a ação aconteceu antes e depois de uma outra ação. A característica mais forte é a terminação <strong class="text-primary">ing</strong>. que em português pode ser <strong class="text-primary">ando, endo, indo</strong>. Vê os exemplos:
 					<ul>
 						<li>walk<strong class="text-primary">ing</strong> (and<strong class="text-primary">ando</strong>)</li>
 						<li>do<strong class="text-primary">ing</strong> (faz<strong class="text-primary">endo</strong>)</li>
 						<li>build<strong class="text-primary">ing</strong> (constru<strong class="text-primary">indo</strong>)</li>
 					</ul>
 				</p>
-				<p>A forma completa para a construção do Presente Contínuo deve seguir as seguintes estruturas:</p>
+				<p>A forma completa para a construção do Past Contínuo deve seguir as seguintes estruturas:</p>
 				<div class="rules">
 					<p>
 						<ul>
@@ -22,19 +22,19 @@
 								<tbody>
 									<tr>
 										<th>Sujeito</th>
-										<th>Verbo <em>to be</em></th>
+										<th><em>to be (passado)</em></th>
 										<th>Verbo Principal</th>
 										<th><strong class="text-primary">ing</strong></th>
 									</tr>
 									<tr>
 										<td>I, you, he...</td>
-										<td>am/is/are</td>
+										<td>was/were</td>
 										<td>sing</td>
 										<td class="text-primary">ing</td>
 									</tr>									
 								</tbody>
 							</table>
-							<p>Ex.: I am sing<strong class="text-primary">ing</strong>. You are sing<strong class="text-primary">ing</strong>.	He is sing<strong class="text-primary">ing</strong>.
+							<p>Ex.: I was sing<strong class="text-primary">ing</strong>. You were sing<strong class="text-primary">ing</strong>.	He was sing<strong class="text-primary">ing</strong>.
 							</p>
 						</ul>
 					</p>
@@ -46,21 +46,21 @@
 								<tbody>
 									<tr>
 										<th>Sujeito</th>
-										<th>Verbo <em>to be</em> + <strong class="text-primary">not</strong></th>
+										<th><em>to be (passado)</em> + <strong class="text-primary">not</strong></th>
 										<th>Verbo Principal</th>
 										<th><strong class="text-primary">ing</strong></th>
 									</tr>
 									<tr>
 										<td>I, you, he...</td>
-										<td>am/is/are <strong class="text-primary">not</strong></td>
+										<td>was/were <strong class="text-primary">not</strong></td>
 										<td>learn</td>
 										<td class="text-primary">ing</td>
 									</tr>									
 								</tbody>
 							</table>
-							<p>Ex.: I am  <strong class="text-primary">not</strong> learn<strong class="text-primary">ing</strong>. You are  <strong class="text-primary">not</strong> learn<strong class="text-primary">ing</strong>.	He is  <strong class="text-primary">not</strong> learn<strong class="text-primary">ing</strong>.
+							<p>Ex.: I was  <strong class="text-primary">not</strong> learn<strong class="text-primary">ing</strong>. You were  <strong class="text-primary">not</strong> learn<strong class="text-primary">ing</strong>.	He was  <strong class="text-primary">not</strong> learn<strong class="text-primary">ing</strong>.
 							</p>
-							<p>Obs.: Pode-se contrair <em>are/is</em> com o  <strong class="text-primary">not</strong> =  <strong class="text-primary">aren't</strong>,  <strong class="text-primary">isn't</strong></p>
+							<p>Obs.: Pode-se contrair <em>was/were</em> com o  <strong class="text-primary">not</strong> =  <strong class="text-primary">wasn't</strong>,  <strong class="text-primary">weren't'</strong></p>
 						</ul>
 					</p>
 					<p>
@@ -70,13 +70,13 @@
 							<table class="mt-4 mb-4">
 								<tbody>
 									<tr>
-										<th>Verbo <em>to be</em></th>
+										<th><em>to be (passado)</em></th>
 										<th>Sujeito</th>
 										<th>Verbo Principal</th>
 										<th><strong class="text-primary">ing</strong></th>
 									</tr>
 									<tr>
-										<td>am/is/are</td>
+										<td>was/were</td>
 										<td>I, you, he...</td>
 										<td>watch</td>
 										<td class="text-primary">ing</td>
@@ -99,11 +99,11 @@
 </template>
 
 <script>
-import Header6 from "./Header6";
+import Header7 from "./Header7";
 export default {
   name: "PreSentContinuous",
   components: {
-    Header6,
+    Header7,
   },
 };
 </script>
