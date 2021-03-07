@@ -94,6 +94,9 @@
       <b-dropdown-item>
         <router-link to="/could">Could</router-link>
       </b-dropdown-item>
+      <b-dropdown-item>
+        <router-link to="/linkingwords">Linking Words</router-link>
+      </b-dropdown-item>
 
     </b-dropdown>
   </b-col>

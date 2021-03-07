@@ -31,6 +31,7 @@ import ObjectPronouns from "./components/setimo/ObjectPronouns"
 import Can from "./components/setimo/Can"
 import Could from "./components/setimo/Could"
 import PrepositionTime from "./components/setimo/PrepositionTime";
+import LinkingWords from "./components/setimo/LinkingWords";
 
 Vue.use(Router);
 
@@ -267,5 +268,15 @@ export default new Router({
       title: "Prepositions of Time",
     },
   },
+  {
+    path: "/linkingwords",
+    name: "linkingwords",
+    component: LinkingWords,
+    meta: {
+      auth: false,
+      title: "Linking Words",
+    },
+  },
+
   ],
 });
