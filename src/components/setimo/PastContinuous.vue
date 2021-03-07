@@ -5,7 +5,23 @@
 			<b-card-title>Past Continuous</b-card-title>
 			<b-card-sub-title>Passado Contínuo (Gerúndio)</b-card-sub-title>
 			<b-card-text class="mt-2 md-w-75 text-center mx-auto">
-				<p>Usa-se o Passado Contínuo (gerúndio) quando a ação aconteceu antes e depois de uma outra ação. A característica mais forte é a terminação <strong class="text-primary">ing</strong>. que em português pode ser <strong class="text-primary">ando, endo, indo</strong>. Vê os exemplos:
+				<p>Usa-se o Passado Contínuo (gerúndio) quando:
+					<ul>
+						<li>
+							algo estava acontecendo antes e depois de <strong>uma outra ação</strong>: "Os meninos <strong>estavam jogando</strong> bola quando chegeui em casa."
+						</li>
+						<li>
+							algo estava acontecendo <strong>antes e depois de um tempo específico</strong>: "Eram 20:00 eu eu <strong>estava assistindo</strong> Homem-Aranha."
+						</li>
+						<li>
+							algo continuou <strong>por algum tempo</strong>: "Todos <strong>estavam chorando</strong> ."
+						</li>
+						<li>
+							algo acontecia <strong>repetidamente</strong>: "Todos <strong>estavam protestando</strong> depois dos aumentos."  
+						</li>
+					</ul>
+					<p>
+						A característica mais forte é a terminação <strong class="text-primary">ing</strong>. que em português pode ser <strong class="text-primary">ando, endo, indo</strong>. Vê os exemplos:
 					<ul>
 						<li>walk<strong class="text-primary">ing</strong> (and<strong class="text-primary">ando</strong>)</li>
 						<li>do<strong class="text-primary">ing</strong> (faz<strong class="text-primary">endo</strong>)</li>
@@ -83,7 +99,7 @@
 									</tr>									
 								</tbody>
 							</table>
-							<p>Ex.: Am I watch<strong class="text-primary">ing</strong>? Are you watch<strong class="text-primary">ing</strong>?	Is he watch<strong class="text-primary">ing</strong>?
+							<p>Ex.: Was I watch<strong class="text-primary">ing</strong>? Were you watch<strong class="text-primary">ing</strong>?	Was he watch<strong class="text-primary">ing</strong>?
 							</p>
 						</ul>
 					<h5>Atenção</h5>
