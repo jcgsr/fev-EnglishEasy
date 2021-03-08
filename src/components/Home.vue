@@ -110,6 +110,8 @@
           </b-dropdown-item>
         </b-dropdown>
       </b-col>
+      <!-- Fim Sétimo -->
+      <!-- Oitavo -->
       <b-col md="3">
         <b-dropdown
           text="8º Ano"
@@ -118,10 +120,10 @@
           size="lg"
         >
           <b-dropdown-item>
-            <router-link to="/be">To Be</router-link>
+            <router-link to="/comparative"
+              >Adjectives (Comparative)</router-link
+            >
           </b-dropdown-item>
-          <b-dropdown-item>Second Action</b-dropdown-item>
-          <b-dropdown-item>Third Action</b-dropdown-item>
         </b-dropdown>
       </b-col>
       <b-col md="3">

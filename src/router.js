@@ -34,6 +34,10 @@ import PrepositionTime from "./components/setimo/PrepositionTime";
 import LinkingWords from "./components/setimo/LinkingWords";
 import BePast from "./components/setimo/BePast";
 import PastContinuous from "./components/setimo/PastContinuous";
+// Fim Sétimo
+
+// Oitavo
+import Comparative from "./components/oitavo/Comparative";
 
 Vue.use(Router);
 
@@ -297,6 +301,18 @@ export default new Router({
       title: "Past Continuous",
     },
   },
+// Fim do Sétimo
+
+// Oitavo
+{
+  path: "/comparative",
+  name: "comparative",
+  component: Comparative,
+  meta: {
+    auth: false,
+    title: "Adjectives (Comparative)",
+  },
+},
 
   ],
 });

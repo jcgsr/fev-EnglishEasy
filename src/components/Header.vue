@@ -74,10 +74,10 @@
             <b-dropdown-item>
               <router-link to="/imperative">Imperative</router-link>
             </b-dropdown-item>
-            <!-- Fim Sexto -->
-
-            <!-- Sétimo -->
           </b-nav-item-dropdown>
+          <!-- Fim Sexto -->
+
+          <!-- Sétimo -->
           <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav class="ml-auto">
               <b-nav-item-dropdown text="7º" right>
@@ -111,6 +111,20 @@
                   >
                 </b-dropdown-item>
               </b-nav-item-dropdown>
+              <!-- Fim do Sétimo -->
+
+              <!-- Oitavo -->
+              <b-collapse id="nav-collapse" is-nav>
+                <b-navbar-nav class="ml-auto">
+                  <b-nav-item-dropdown text="8º" right>
+                    <b-dropdown-item>
+                      <router-link to="/comparative"
+                        >Adjectives (Comparative)</router-link
+                      >
+                    </b-dropdown-item>
+                  </b-nav-item-dropdown>
+                </b-navbar-nav>
+              </b-collapse>
             </b-navbar-nav>
           </b-collapse>
           <b-nav-item right>
