@@ -34,7 +34,7 @@
           <li>Adjetivos de 2 sílabas:</li>
           <ol type="i">
             <li>
-              (clever, narrow, quiet) → clever<strong>er</strong>, narrow<strong>er</strong>, quiet<strong>er</strong> 
+              (clever, narrow, quiet) + <strong>er</strong> → clever<strong>er</strong>, narrow<strong>er</strong>, quiet<strong>er</strong> 
             </li>
             <li>
               terminados <em>"y"</em> e antes dele tiver uma consoante, deve-se trocá-lo por <em>"i"</em> e só depois adicionar <strong>"er"</strong> (bus<em>y</em>, eas<em>y</em>, happ<em>y</em>) → bus<em>i</em><strong>er</strong>, eas<em>i</em><strong>er</strong>, happ<em>i</em><strong>er</strong>

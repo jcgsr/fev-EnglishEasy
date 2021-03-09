@@ -23,13 +23,13 @@ import Ordinal from "./components/sexto/Ordinal";
 import Dates from "./components/sexto/Dates";
 import AdverbsFrequency from "./components/sexto/AdverbsFrequency";
 import Imperative from "./components/sexto/Imperative";
-// fim Sexto 
+// fim Sexto
 
-// Sétimo 
-import PastSimple from "./components/setimo/PastSimple"
-import ObjectPronouns from "./components/setimo/ObjectPronouns"
-import Can from "./components/setimo/Can"
-import Could from "./components/setimo/Could"
+// Sétimo
+import PastSimple from "./components/setimo/PastSimple";
+import ObjectPronouns from "./components/setimo/ObjectPronouns";
+import Can from "./components/setimo/Can";
+import Could from "./components/setimo/Could";
 import PrepositionTime from "./components/setimo/PrepositionTime";
 import LinkingWords from "./components/setimo/LinkingWords";
 import BePast from "./components/setimo/BePast";
@@ -39,6 +39,7 @@ import PastContinuous from "./components/setimo/PastContinuous";
 // Oitavo
 import Comparative from "./components/oitavo/Comparative";
 import RelativePronouns from "./components/oitavo/RelativePronouns";
+import Superlative from "./components/oitavo/Superlative";
 
 Vue.use(Router);
 
@@ -46,283 +47,291 @@ export default new Router({
   mode: "history",
   linkExactActiveClass: "link-active",
   routes: [
-  {
-    path: "/",
-    name: "home",
-    component: Home,
-    meta: {
-      auth: false,
-      title: "English Easy",
+    {
+      path: "/",
+      name: "home",
+      component: Home,
+      meta: {
+        auth: false,
+        title: "English Easy",
+      },
     },
-  },
-  {
-    path: "/info",
-    name: "info",
-    component: Info,
-    meta: {
-      auth: false,
-      title: "Info",
+    {
+      path: "/info",
+      name: "info",
+      component: Info,
+      meta: {
+        auth: false,
+        title: "Info",
+      },
     },
-  },
-// Sexto
-  {
-    path: "/be",
-    name: "be",
-    component: Be,
-    meta: {
-      auth: false,
-      title: "To Be",
+    // Sexto
+    {
+      path: "/be",
+      name: "be",
+      component: Be,
+      meta: {
+        auth: false,
+        title: "To Be",
+      },
     },
-  },
-  {
-    path: "/subj",
-    name: "subj",
-    component: SubjectPronouns,
-    meta: {
-      auth: false,
-      title: "SubjectPronoun",
+    {
+      path: "/subj",
+      name: "subj",
+      component: SubjectPronouns,
+      meta: {
+        auth: false,
+        title: "SubjectPronoun",
+      },
     },
-  },
-  {
-    path: "/articles",
-    name: "articles",
-    component: Articles,
-    meta: {
-      auth: false,
-      title: "Articles",
+    {
+      path: "/articles",
+      name: "articles",
+      component: Articles,
+      meta: {
+        auth: false,
+        title: "Articles",
+      },
     },
-  },
-  {
-    path: "/possessive-adj",
-    name: "possessive-adj",
-    component: PossessiveAdj,
-    meta: {
-      auth: false,
-      title: "Possessive Adjectives",
+    {
+      path: "/possessive-adj",
+      name: "possessive-adj",
+      component: PossessiveAdj,
+      meta: {
+        auth: false,
+        title: "Possessive Adjectives",
+      },
     },
-  },
-  {
-    path: "/numbers",
-    name: "numbers",
-    component: Numbers,
-    meta: {
-      auth: false,
-      title: "Cardinal Numbers",
+    {
+      path: "/numbers",
+      name: "numbers",
+      component: Numbers,
+      meta: {
+        auth: false,
+        title: "Cardinal Numbers",
+      },
     },
-  },
-  {
-    path: "/genitive",
-    name: "genitive",
-    component: Genitive,
-    meta: {
-      auth: false,
-      title: "Genitive Case",
+    {
+      path: "/genitive",
+      name: "genitive",
+      component: Genitive,
+      meta: {
+        auth: false,
+        title: "Genitive Case",
+      },
     },
-  },
-  {
-    path: "/demonstratives",
-    name: "demonstratives",
-    component: Demonstratives,
-    meta: {
-      auth: false,
-      title: "Demonstrative Pronouns",
+    {
+      path: "/demonstratives",
+      name: "demonstratives",
+      component: Demonstratives,
+      meta: {
+        auth: false,
+        title: "Demonstrative Pronouns",
+      },
     },
-  },
-  {
-    path: "/therebe",
-    name: "therebe",
-    component: ThereBe,
-    meta: {
-      auth: false,
-      title: "There To Be",
+    {
+      path: "/therebe",
+      name: "therebe",
+      component: ThereBe,
+      meta: {
+        auth: false,
+        title: "There To Be",
+      },
     },
-  },
-  {
-    path: "/presentsimple",
-    name: "presentsimple",
-    component: PresentSimple,
-    meta: {
-      auth: false,
-      title: "Present Simple",
+    {
+      path: "/presentsimple",
+      name: "presentsimple",
+      component: PresentSimple,
+      meta: {
+        auth: false,
+        title: "Present Simple",
+      },
     },
-  },
-  {
-    path: "/prepositionplace",
-    name: "prepositionplace",
-    component: PrepositionPlace,
-    meta: {
-      auth: false,
-      title: "Prepositions of Place",
+    {
+      path: "/prepositionplace",
+      name: "prepositionplace",
+      component: PrepositionPlace,
+      meta: {
+        auth: false,
+        title: "Prepositions of Place",
+      },
     },
-  },
-  {
-    path: "/plurals",
-    name: "plurals",
-    component: Plurals,
-    meta: {
-      auth: false,
-      title: "Plurals",
+    {
+      path: "/plurals",
+      name: "plurals",
+      component: Plurals,
+      meta: {
+        auth: false,
+        title: "Plurals",
+      },
     },
-  },
-  {
-    path: "/presentcontinuous",
-    name: "presentcontinuous",
-    component: PresentContinuous,
-    meta: {
-      auth: false,
-      title: "Present Continuous",
+    {
+      path: "/presentcontinuous",
+      name: "presentcontinuous",
+      component: PresentContinuous,
+      meta: {
+        auth: false,
+        title: "Present Continuous",
+      },
     },
-  },
-  {
-    path: "/have",
-    name: "have",
-    component: Have,
-    meta: {
-      auth: false,
-      title: "To Have",
+    {
+      path: "/have",
+      name: "have",
+      component: Have,
+      meta: {
+        auth: false,
+        title: "To Have",
+      },
     },
-  },
-  {
-    path: "/tellingtime",
-    name: "tellingtime",
-    component: TellingTime,
-    meta: {
-      auth: false,
-      title: "Telling Time",
+    {
+      path: "/tellingtime",
+      name: "tellingtime",
+      component: TellingTime,
+      meta: {
+        auth: false,
+        title: "Telling Time",
+      },
     },
-  },
-  {
-    path: "/ordinal",
-    name: "ordinal",
-    component: Ordinal,
-    meta: {
-      auth: false,
-      title: "Ordinal Numbers",
+    {
+      path: "/ordinal",
+      name: "ordinal",
+      component: Ordinal,
+      meta: {
+        auth: false,
+        title: "Ordinal Numbers",
+      },
     },
-  },
-  {
-    path: "/dates",
-    name: "dates",
-    component: Dates,
-    meta: {
-      auth: false,
-      title: "Dates",
+    {
+      path: "/dates",
+      name: "dates",
+      component: Dates,
+      meta: {
+        auth: false,
+        title: "Dates",
+      },
     },
-  },
-  {
-    path: "/advfrequency",
-    name: "advfrequency",
-    component: AdverbsFrequency,
-    meta: {
-      auth: false,
-      title: "Adverbs of Frequency",
+    {
+      path: "/advfrequency",
+      name: "advfrequency",
+      component: AdverbsFrequency,
+      meta: {
+        auth: false,
+        title: "Adverbs of Frequency",
+      },
     },
-  },
-  {
-    path: "/imperative",
-    name: "imperative",
-    component: Imperative,
-    meta: {
-      auth: false,
-      title: "Imperative",
+    {
+      path: "/imperative",
+      name: "imperative",
+      component: Imperative,
+      meta: {
+        auth: false,
+        title: "Imperative",
+      },
     },
-  },
-  // Fim Sexto
+    // Fim Sexto
 
-  // Sétimo
-  {
-    path: "/pastSimple",
-    name: "pastSimple",
-    component: PastSimple,
-    meta: {
-      auth: false,
-      title: "Past Simple",
+    // Sétimo
+    {
+      path: "/pastSimple",
+      name: "pastSimple",
+      component: PastSimple,
+      meta: {
+        auth: false,
+        title: "Past Simple",
+      },
     },
-  },
-  {
-    path: "/objpronouns",
-    name: "objpronouns",
-    component: ObjectPronouns,
-    meta: {
-      auth: false,
-      title: "Object Pronouns",
+    {
+      path: "/objpronouns",
+      name: "objpronouns",
+      component: ObjectPronouns,
+      meta: {
+        auth: false,
+        title: "Object Pronouns",
+      },
     },
-  },
-  {
-    path: "/can",
-    name: "can",
-    component: Can,
-    meta: {
-      auth: false,
-      title: "Can",
+    {
+      path: "/can",
+      name: "can",
+      component: Can,
+      meta: {
+        auth: false,
+        title: "Can",
+      },
     },
-  },
-  {
-    path: "/could",
-    name: "could",
-    component: Could,
-    meta: {
-      auth: false,
-      title: "Could",
+    {
+      path: "/could",
+      name: "could",
+      component: Could,
+      meta: {
+        auth: false,
+        title: "Could",
+      },
     },
-  },
-  {
-    path: "/prepositiontime",
-    name: "prepositiontime",
-    component: PrepositionTime,
-    meta: {
-      auth: false,
-      title: "Prepositions of Time",
+    {
+      path: "/prepositiontime",
+      name: "prepositiontime",
+      component: PrepositionTime,
+      meta: {
+        auth: false,
+        title: "Prepositions of Time",
+      },
     },
-  },
-  {
-    path: "/linkingwords",
-    name: "linkingwords",
-    component: LinkingWords,
-    meta: {
-      auth: false,
-      title: "Linking Words",
+    {
+      path: "/linkingwords",
+      name: "linkingwords",
+      component: LinkingWords,
+      meta: {
+        auth: false,
+        title: "Linking Words",
+      },
     },
-  },
-  {
-    path: "/bepast",
-    name: "bepast",
-    component: BePast,
-    meta: {
-      auth: false,
-      title: "To Be (Past)",
+    {
+      path: "/bepast",
+      name: "bepast",
+      component: BePast,
+      meta: {
+        auth: false,
+        title: "To Be (Past)",
+      },
     },
-  },
-  {
-    path: "/pastcontinuous",
-    name: "pastcontinuous",
-    component: PastContinuous,
-    meta: {
-      auth: false,
-      title: "Past Continuous",
+    {
+      path: "/pastcontinuous",
+      name: "pastcontinuous",
+      component: PastContinuous,
+      meta: {
+        auth: false,
+        title: "Past Continuous",
+      },
     },
-  },
-// Fim do Sétimo
+    // Fim do Sétimo
 
-// Oitavo
-{
-  path: "/comparative",
-  name: "comparative",
-  component: Comparative,
-  meta: {
-    auth: false,
-    title: "Adjectives (Comparative)",
-  },
-},
-{
-  path: "/relativepronouns",
-  name: "relativepronouns",
-  component: RelativePronouns,
-  meta: {
-    auth: false,
-    title: "Relative Pronouns",
-  },
-},
-
+    // Oitavo
+    {
+      path: "/comparative",
+      name: "comparative",
+      component: Comparative,
+      meta: {
+        auth: false,
+        title: "Adjectives (Comparative)",
+      },
+    },
+    {
+      path: "/relativepronouns",
+      name: "relativepronouns",
+      component: RelativePronouns,
+      meta: {
+        auth: false,
+        title: "Relative Pronouns",
+      },
+    },
+    {
+      path: "/superlative",
+      name: "superlative",
+      component: Superlative,
+      meta: {
+        auth: false,
+        title: "Adjectives (Superlative)",
+      },
+    },
   ],
 });
