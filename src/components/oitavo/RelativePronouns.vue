@@ -95,7 +95,7 @@
          <strong>whose</strong> é a forma <em>possessiva</em> de <strong>who</strong>. A tradução pode ser <strong>de quem/cujo</strong>. Ex.: <em>This is Spider-Man, <strong>whose</strong> nickname is Spidey</em> (Esse é o Spider-Man, <strong>cujo</strong> apelido é Spidey)
        </li>
        <li>
-         <strong>whom</strong>, sempre usado com pessoas, sempre é o objeto do verbo, portanto, pode-se usar tanto <strong>who/whom</strong> quando o pronome relativo for <u>objeto</u>. Ex.:<em> This is Peter, <strong>whom</strong> Mary Jane fell in love with.</em> (Esse é Peter, por <strong>quem</strong> Mary Jane se apaixonou.)
+         <strong>whom</strong>, sempre usado com pessoas, sempre é o objeto do verbo, portanto, pode-se usar tanto <strong>who/whom</strong> quando o pronome relativo for <u>objeto</u>. Ex.:<em> This is Peter, <strong>whom</strong> Mary Jane fell in love with.</em> (Esse é Peter, por <strong>quem</strong> Mary Jane se apaixonou.) 
        </li>
      </ul>
    </p>

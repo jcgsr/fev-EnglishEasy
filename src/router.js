@@ -40,6 +40,7 @@ import PastContinuous from "./components/setimo/PastContinuous";
 import Comparative from "./components/oitavo/Comparative";
 import RelativePronouns from "./components/oitavo/RelativePronouns";
 import Superlative from "./components/oitavo/Superlative";
+import BeGoingTo from "./components/oitavo/BeGoingTo";
 
 Vue.use(Router);
 
@@ -331,6 +332,15 @@ export default new Router({
       meta: {
         auth: false,
         title: "Adjectives (Superlative)",
+      },
+    },
+    {
+      path: "/begoingto",
+      name: "begoingto",
+      component: BeGoingTo,
+      meta: {
+        auth: false,
+        title: "Future (Be Going To)",
       },
     },
   ],
