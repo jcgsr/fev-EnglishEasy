@@ -38,6 +38,7 @@ import PastContinuous from "./components/setimo/PastContinuous";
 
 // Oitavo
 import Comparative from "./components/oitavo/Comparative";
+import RelativePronouns from "./components/oitavo/RelativePronouns";
 
 Vue.use(Router);
 
@@ -311,6 +312,15 @@ export default new Router({
   meta: {
     auth: false,
     title: "Adjectives (Comparative)",
+  },
+},
+{
+  path: "/relativepronouns",
+  name: "relativepronouns",
+  component: RelativePronouns,
+  meta: {
+    auth: false,
+    title: "Relative Pronouns",
   },
 },
 

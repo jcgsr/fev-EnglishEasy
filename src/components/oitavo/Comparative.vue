@@ -77,6 +77,7 @@
 import Header8 from "./Header8";
 
 export default {
+  name: "ComparativeOfAdj",
   components: { Header8 },
 };
 </script>

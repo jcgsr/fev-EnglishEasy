@@ -4,163 +4,169 @@
     <b-row>
       <b-col md="3">
         <b-dropdown
-          text="6º Ano"
-          variant="danger"
-          class="m-md-4 mb-2 shadow"
-          size="lg"
+        text="6º Ano"
+        variant="danger"
+        class="m-md-4 mb-2 shadow"
+        size="lg"
         >
-          <b-dropdown-item>
-            <router-link to="/subj">Subject Pronouns</router-link>
-          </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/subj">Subject Pronouns</router-link>
+        </b-dropdown-item>
 
-          <b-dropdown-item>
-            <router-link to="/be">To Be</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/articles">Articles</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/possessive-adj"
-              >Possessive Adjectives</router-link
-            >
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/numbers">Cardinal Numbers</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/genitive">Genitive Case</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/demonstratives"
-              >Demonstrative Pronouns</router-link
-            >
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/therebe">There To Be</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/presentsimple">Present Simple</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/prepositionplace"
-              >Preposition of Place</router-link
-            >
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/plurals">Plurals</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/presentcontinuous"
-              >Present Continuous</router-link
-            >
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/have">To Have</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/tellingtime">Telling Time</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/ordinal">Ordinal Numbers</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/dates">Dates</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/advfrequency">Adverbs of Frequency</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/imperative">Imperative</router-link>
-          </b-dropdown-item>
-        </b-dropdown>
-      </b-col>
-      <!-- Sétimo -->
-      <b-col md="3">
-        <b-dropdown
-          text="7º Ano"
-          variant="danger"
-          class="m-md-4 mb-2 shadow"
-          size="lg"
+        <b-dropdown-item>
+          <router-link to="/be">To Be</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/articles">Articles</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/possessive-adj"
+          >Possessive Adjectives</router-link
+          >
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/numbers">Cardinal Numbers</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/genitive">Genitive Case</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/demonstratives"
+          >Demonstrative Pronouns</router-link
+          >
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/therebe">There To Be</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/presentsimple">Present Simple</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/prepositionplace"
+          >Preposition of Place</router-link
+          >
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/plurals">Plurals</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/presentcontinuous"
+          >Present Continuous</router-link
+          >
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/have">To Have</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/tellingtime">Telling Time</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/ordinal">Ordinal Numbers</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/dates">Dates</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/advfrequency">Adverbs of Frequency</router-link>
+        </b-dropdown-item>
+        <b-dropdown-item>
+          <router-link to="/imperative">Imperative</router-link>
+        </b-dropdown-item>
+      </b-dropdown>
+    </b-col>
+    <!-- Sétimo -->
+    <b-col md="3">
+      <b-dropdown
+      text="7º Ano"
+      variant="danger"
+      class="m-md-4 mb-2 shadow"
+      size="lg"
+      >
+      <b-dropdown-item>
+        <router-link to="/pastsimple">Past Simple</router-link>
+      </b-dropdown-item>
+      <b-dropdown-item>
+        <router-link to="/objpronouns">Object Pronouns</router-link>
+      </b-dropdown-item>
+      <b-dropdown-item>
+        <router-link to="/prepositiontime"
+        >Prepositions of Time</router-link
         >
-          <b-dropdown-item>
-            <router-link to="/pastsimple">Past Simple</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/objpronouns">Object Pronouns</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/prepositiontime"
-              >Prepositions of Time</router-link
-            >
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/can">Can</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/could">Could</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/linkingwords">Linking Words</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/bepast">To Be (Past)</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>
-            <router-link to="/pastcontinuous">Past Continuous</router-link>
-          </b-dropdown-item>
-        </b-dropdown>
-      </b-col>
-      <!-- Fim Sétimo -->
-      <!-- Oitavo -->
-      <b-col md="3">
-        <b-dropdown
-          text="8º Ano"
-          variant="danger"
-          class="m-md-4 mb-2 shadow"
-          size="lg"
-        >
-          <b-dropdown-item>
-            <router-link to="/comparative"
-              >Adjectives (Comparative)</router-link
-            >
-          </b-dropdown-item>
-        </b-dropdown>
-      </b-col>
-      <b-col md="3">
-        <b-dropdown
-          text="9º Ano"
-          variant="danger"
-          class="m-md-4 shadow"
-          size="lg"
-        >
-          <b-dropdown-item>
-            <router-link to="/be">To Be</router-link>
-          </b-dropdown-item>
-          <b-dropdown-item>Second Action</b-dropdown-item>
-          <b-dropdown-item>Third Action</b-dropdown-item>
-        </b-dropdown>
-      </b-col>
-    </b-row>
-    <KinesisContainer>
-      <KinesisElement :strength="40" type="depth">
-        <a :href="linkBrE" title="Pexels - BrE Bandeira">
-          <img
-            class="brE mt-4 mb-4"
-            src="../assets/brEflag.jpg"
-            alt="Bandeira Inglesa"
-          />
-        </a>
-      </KinesisElement>
-    </KinesisContainer>
+      </b-dropdown-item>
+      <b-dropdown-item>
+        <router-link to="/can">Can</router-link>
+      </b-dropdown-item>
+      <b-dropdown-item>
+        <router-link to="/could">Could</router-link>
+      </b-dropdown-item>
+      <b-dropdown-item>
+        <router-link to="/linkingwords">Linking Words</router-link>
+      </b-dropdown-item>
+      <b-dropdown-item>
+        <router-link to="/bepast">To Be (Past)</router-link>
+      </b-dropdown-item>
+      <b-dropdown-item>
+        <router-link to="/pastcontinuous">Past Continuous</router-link>
+      </b-dropdown-item>
+    </b-dropdown>
+  </b-col>
+  <!-- Fim Sétimo -->
+  <!-- Oitavo -->
+  <b-col md="3">
+    <b-dropdown
+    text="8º Ano"
+    variant="danger"
+    class="m-md-4 mb-2 shadow"
+    size="lg"
+    >
+    <b-dropdown-item>
+      <router-link to="/comparative"
+      >Adjectives (Comparative)</router-link
+      >
+    </b-dropdown-item>
+    <b-dropdown-item>
+      <router-link to="/relativepronouns"
+      >Relative Pronouns</router-link
+      >
+    </b-dropdown-item>
 
-    <KinesisContainer>
-      <KinesisElement :strength="20" type="depth">
-        <a href="linkAmE" title="Pexels - AmE Bandeira">
-          <img class="amE mb-4" src="../assets/ameFlag.jpg" alt="" />
-        </a>
-      </KinesisElement>
-    </KinesisContainer>
-  </b-container>
+  </b-dropdown>
+</b-col>
+<b-col md="3">
+  <b-dropdown
+  text="9º Ano"
+  variant="danger"
+  class="m-md-4 shadow"
+  size="lg"
+  >
+  <b-dropdown-item>
+    <router-link to="/be">To Be</router-link>
+  </b-dropdown-item>
+  <b-dropdown-item>Second Action</b-dropdown-item>
+  <b-dropdown-item>Third Action</b-dropdown-item>
+</b-dropdown>
+</b-col>
+</b-row>
+<KinesisContainer>
+  <KinesisElement :strength="40" type="depth">
+    <a :href="linkBrE" title="Pexels - BrE Bandeira">
+      <img
+      class="brE mt-4 mb-4"
+      src="../assets/brEflag.jpg"
+      alt="Bandeira Inglesa"
+      />
+    </a>
+  </KinesisElement>
+</KinesisContainer>
+
+<KinesisContainer>
+  <KinesisElement :strength="20" type="depth">
+    <a href="linkAmE" title="Pexels - AmE Bandeira">
+      <img class="amE mb-4" src="../assets/ameFlag.jpg" alt="" />
+    </a>
+  </KinesisElement>
+</KinesisContainer>
+</b-container>
 </template>
 
 
@@ -175,9 +181,9 @@ export default {
   data() {
     return {
       linkBrE:
-        "https://pixabay.com/pt/illustrations/bandeira-do-reino-unido-union-jack-1443709/",
+      "https://pixabay.com/pt/illustrations/bandeira-do-reino-unido-union-jack-1443709/",
       linkAmE:
-        "https://pixabay.com/pt/illustrations/grunge-desbotada-usado-pavilh%C3%A3o-1081668/",
+      "https://pixabay.com/pt/illustrations/grunge-desbotada-usado-pavilh%C3%A3o-1081668/",
     };
   },
 };
