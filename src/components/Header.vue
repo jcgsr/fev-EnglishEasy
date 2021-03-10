@@ -134,7 +134,12 @@
                     </b-dropdown-item>
                     <b-dropdown-item>
                       <router-link to="/begoingto"
-                      >Be Going to</router-link
+                      >Future (Be Going to)</router-link
+                      >
+                    </b-dropdown-item>
+                    <b-dropdown-item>
+                      <router-link to="/will"
+                      >Future (Will)</router-link
                       >
                     </b-dropdown-item>
                   </b-nav-item-dropdown>
