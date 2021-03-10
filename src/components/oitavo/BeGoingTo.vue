@@ -47,8 +47,8 @@
           </li>
           <li>
             <strong>will</strong> expressa um <strong>fato</strong> futuro, uma <strong>certeza</strong>; <strong>be going to</strong> é usado para descrever algo que está para acontecer. Ex.: <br>
-             <em>The sun <strong>will</strong> rise.</em> (O sol <strong>nascerá</strong>.) - Uma <strong>certeza</strong>. <br>
-             <em>The alarm clock <strong>is going to</strong> go off.</em> (O despertador <strong>vai</strong> tocar.) - Já está perto da hora marcada para ele tocar.
+            <em>The sun <strong>will</strong> rise.</em> (O sol <strong>nascerá</strong>.) - Uma <strong>certeza</strong>. <br>
+            <em>The alarm clock <strong>is going to</strong> go off.</em> (O despertador <strong>vai</strong> tocar.) - Já está perto da hora marcada para ele tocar.
           </li>
           <li>
             <strong>will</strong> é usado para fazer <em>promessas, ofertas, ameaças, recusas</em>. Lê os exemplos de cada um desses usos:
@@ -68,6 +68,21 @@
             </ol>
           </li>
         </ul>
+        <h5>Diferenças entre <em>be going to</em> e <em>Present Continuous</em></h5>
+        <p>
+          Embora tanto o <em>Presente Contínuo</em> quanto o <em>be going to</em> possam ser usados para expressar a mesma ideia de algo futuro, em alguns casos, há uma diferença de significado. Vê os exemplos: 
+          <ul>
+            <li>
+              O <strong>Presente Contínuo</strong> é usado principalmente para falar sobre planos pessoais, concretos, quando já se sabe, por exemplo, a data, a hora, o local. O <strong>be going to</strong> também pode ser usado para expressar a mesma ideia, mas com ênfase extra na ideia de <strong>intenção</strong>. Ex.: <br>
+              <em>I <strong>am going to</strong> buy a new car.</em> (Eu <strong>vou</strong> comprar um novo carro.) - Há a intenção nessa frase.<br>
+              <em>I <strong>am buying</strong> a new car.</em> (Estou <strong>comprando/vou comprar</strong> um novo carro.) - O foco aqui é a <em>decisão</em>, o <em>plano</em>.
+            </li>
+            <li>
+              Normalmente se usa o <strong>be going to</strong>para falar sobre eventos fora do controle das pessoas. Ex.: <br>
+              <em>The price of gasoline <strong>is going to</strong> go up.</em> (O preço da gasolina <strong>vai</strong> subir.)
+            </li>
+          </ul>
+        </p>
       </b-card-text>
     </b-card>
   </b-container>
