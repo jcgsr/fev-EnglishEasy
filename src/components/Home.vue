@@ -132,20 +132,17 @@
               >Adjectives (Superlative)</router-link
             >
           </b-dropdown-item>
-           <b-dropdown-item>
-            <router-link to="/begoingto"
-              >Future (Be Going to)</router-link
-            >
+          <b-dropdown-item>
+            <router-link to="/begoingto">Future (Be Going to)</router-link>
           </b-dropdown-item>
           <b-dropdown-item>
-            <router-link to="/will"
-            >Future (Will)</router-link
-            >
+            <router-link to="/will">Future (Will)</router-link>
           </b-dropdown-item>
-           <b-dropdown-item>
-            <router-link to="/prefixsufix"
-            >Prefix & Sufix</router-link
-            >
+          <b-dropdown-item>
+            <router-link to="/prefixsufix">Prefix & Sufix</router-link>
+          </b-dropdown-item>
+          <b-dropdown-item>
+            <router-link to="/quantifiers">Quantifiers</router-link>
           </b-dropdown-item>
         </b-dropdown>
       </b-col>

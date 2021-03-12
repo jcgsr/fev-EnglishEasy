@@ -43,6 +43,7 @@ import Superlative from "./components/oitavo/Superlative";
 import BeGoingTo from "./components/oitavo/BeGoingTo";
 import Will from "./components/oitavo/Will";
 import PrefixSufix from "./components/oitavo/PrefixSufix";
+import Quantifiers from "./components/oitavo/Quantifiers";
 
 Vue.use(Router);
 
@@ -361,6 +362,15 @@ export default new Router({
       meta: {
         auth: false,
         title: "Prefixes and Sufixes",
+      },
+    },
+    {
+      path: "/quantifiers",
+      name: "quantifiers",
+      component: Quantifiers,
+      meta: {
+        auth: false,
+        title: "Quantifiers",
       },
     },
   ],

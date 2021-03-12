@@ -145,6 +145,12 @@
                           >Prefix & Sufix</router-link
                         >
                       </b-dropdown-item>
+                      <b-dropdown-item>
+                        <router-link to="/quantifiers"
+                          >Quantifiers</router-link
+                        >
+                      </b-dropdown-item>
+ 
                   </b-nav-item-dropdown>
                 </b-navbar-nav>
               </b-collapse>
