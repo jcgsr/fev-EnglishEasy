@@ -207,7 +207,7 @@ export default {
   },
 };
 </script>
-<style scoped>
+<style>
 h1 {
   text-align: center;
   padding: 1rem;
@@ -222,7 +222,7 @@ h1 {
 .container {
   text-align: center;
   background-image: url(../assets/ameFlag.jpg);
-  padding: 2rem;
+  padding-bottom: 2rem;
   background-repeat: repeat-x;
   background-position: 
     0 20%,
