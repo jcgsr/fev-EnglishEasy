@@ -222,8 +222,8 @@ h1 {
 .container {
   text-align: center;
   background-image: url(../assets/ameFlag.jpg);
-  padding-bottom: 2rem;
-  background-repeat: repeat-x;
+  padding: 2rem;
+ /* background-repeat: repeat-x;
   background-position: 
     0 20%,
     0 100%,
@@ -236,9 +236,9 @@ h1 {
     500px 200px,
     1000px,
     400px 260px;
-  animation: 100s para infinite linear;
+  animation: 100s para infinite linear;*/
 }
-@keyframes para {
+/*@keyframes para {
   100% {
     background-position: 
       -5000px 20%,
@@ -247,7 +247,7 @@ h1 {
       1000px 100%,
       400px 0;
     }
-  }
+  }*/
 .dropdown-menu > li > a:hover {
   background-color: red;
 }
