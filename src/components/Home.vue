@@ -223,6 +223,7 @@ h1 {
   text-align: center;
   background-image: url(../assets/ameFlag.jpg);
   padding: 2rem;
+  margin-bottom: 2rem;
  /* background-repeat: repeat-x;
   background-position: 
     0 20%,
