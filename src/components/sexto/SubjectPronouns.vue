@@ -45,3 +45,30 @@ export default {
     }
 };
 </script>
+<style>
+h1 {
+  text-align: center;
+  padding: 1rem;
+}
+.btn-danger {
+  background-color: rgb(241, 11, 11);
+}
+.btn-danger:hover {
+  background-color: blue !important;
+  border: none;
+}
+.container {
+  text-align: center;
+}
+.dropdown-menu > li > a:hover {
+  background-color: red;
+}
+a:hover {
+  color: white !important;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  opacity: 0.97;
+}
+</style>

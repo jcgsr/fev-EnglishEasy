@@ -23,7 +23,7 @@
             </b-dropdown-item>
             <b-dropdown-item>
               <router-link to="/possessive-adj"
-                >Possessive Adjectives</router-link
+              >Possessive Adjectives</router-link
               >
             </b-dropdown-item>
             <b-dropdown-item>
@@ -34,7 +34,7 @@
             </b-dropdown-item>
             <b-dropdown-item>
               <router-link to="/demonstratives"
-                >Demonstrative Pronouns</router-link
+              >Demonstrative Pronouns</router-link
               >
             </b-dropdown-item>
             <b-dropdown-item>
@@ -45,7 +45,7 @@
             </b-dropdown-item>
             <b-dropdown-item>
               <router-link to="/prepositionplace"
-                >Preposition of Place</router-link
+              >Preposition of Place</router-link
               >
             </b-dropdown-item>
             <b-dropdown-item>
@@ -53,7 +53,7 @@
             </b-dropdown-item>
             <b-dropdown-item>
               <router-link to="/presentcontinuous"
-                >Present Continuous</router-link
+              >Present Continuous</router-link
               >
             </b-dropdown-item>
             <b-dropdown-item>
@@ -89,7 +89,7 @@
                 </b-dropdown-item>
                 <b-dropdown-item>
                   <router-link to="/prepositiontime"
-                    >Prepositions of Time</router-link
+                  >Prepositions of Time</router-link
                   >
                 </b-dropdown-item>
 
@@ -107,7 +107,7 @@
                 </b-dropdown-item>
                 <b-dropdown-item>
                   <router-link to="/pastcontinuous"
-                    >Past Continuous</router-link
+                  >Past Continuous</router-link
                   >
                 </b-dropdown-item>
               </b-nav-item-dropdown>
@@ -119,43 +119,45 @@
                   <b-nav-item-dropdown text="8º" right>
                     <b-dropdown-item>
                       <router-link to="/comparative"
-                        >Adjectives (Comparative)</router-link
+                      >Adjectives (Comparative)</router-link
                       >
                     </b-dropdown-item>
                     <b-dropdown-item>
                       <router-link to="/relativepronouns"
-                        >Relative Pronouns</router-link
+                      >Relative Pronouns</router-link
                       >
                     </b-dropdown-item>
                     <b-dropdown-item>
                       <router-link to="/superlative"
-                        >Adjectives (Superlative)</router-link
+                      >Adjectives (Superlative)</router-link
                       >
                     </b-dropdown-item>
                     <b-dropdown-item>
                       <router-link to="/begoingto"
-                        >Future (Be Going to)</router-link
+                      >Future (Be Going to)</router-link
                       >
                     </b-dropdown-item>
                     <b-dropdown-item>
                       <router-link to="/will">Future (Will)</router-link>
                     </b-dropdown-item>
-                      <b-dropdown-item>
-                        <router-link to="/prefixsufix"
-                          >Prefix & Sufix</router-link
-                        >
-                      </b-dropdown-item>
-                      <b-dropdown-item>
-                        <router-link to="/quantifiers"
-                          >Quantifiers</router-link
-                        >
-                      </b-dropdown-item>
                     <b-dropdown-item>
-                        <router-link to="/countable"
-                          >Countable and Uncountable Nouns</router-link
-                        >
-                      </b-dropdown-item>
-
+                      <router-link to="/prefixsufix"
+                      >Prefix & Sufix</router-link
+                      >
+                    </b-dropdown-item>
+                    <b-dropdown-item>
+                      <router-link to="/quantifiers"
+                      >Quantifiers</router-link
+                      >
+                    </b-dropdown-item>
+                    <b-dropdown-item>
+                      <router-link to="/countable"
+                      >Countable and Uncountable Nouns</router-link
+                      >
+                    </b-dropdown-item>
+                    <b-dropdown-item>
+                      <router-link to="/usedto">Used to</router-link>
+                    </b-dropdown-item>
                   </b-nav-item-dropdown>
                 </b-navbar-nav>
               </b-collapse>
@@ -177,9 +179,9 @@
 </template>
 
 <script>
-export default {
-  name: "Header",
-};
+  export default {
+    name: "Header",
+  };
 </script>
 <style>
 i {

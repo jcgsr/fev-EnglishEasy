@@ -147,6 +147,9 @@
            <b-dropdown-item>
             <router-link to="/countable">Countable and Uncountable Nouns</router-link>
           </b-dropdown-item>
+          <b-dropdown-item>
+            <router-link to="/usedto">Used to</router-link>
+          </b-dropdown-item>
         </b-dropdown>
       </b-col>
       <b-col md="3">
@@ -176,14 +179,14 @@
       </KinesisElement>
     </KinesisContainer>
 
-    <KinesisContainer>
+<!--     <KinesisContainer>
       <KinesisElement :strength="20" type="depth">
         <a href="linkAmE" title="Pexels - AmE Bandeira">
           <img class="amE mb-4" src="../assets/ameFlag.jpg" alt="" />
         </a>
       </KinesisElement>
     </KinesisContainer>
-  </b-container>
+ -->  </b-container>
 </template>
 
 <script>
@@ -204,7 +207,7 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 h1 {
   text-align: center;
   padding: 1rem;
@@ -218,7 +221,33 @@ h1 {
 }
 .container {
   text-align: center;
+  background-image: url(../assets/ameFlag.jpg);
+  padding: 2rem;
+  background-repeat: repeat-x;
+  background-position: 
+    0 20%,
+    0 100%,
+    0 50%,
+    0 100%,
+    0 0;
+  background-size: 
+    2500px,
+    800px,
+    500px 200px,
+    1000px,
+    400px 260px;
+  animation: 100s para infinite linear;
 }
+@keyframes para {
+  100% {
+    background-position: 
+      -5000px 20%,
+      -800px 95%,
+      500px 50%,
+      1000px 100%,
+      400px 0;
+    }
+  }
 .dropdown-menu > li > a:hover {
   background-color: red;
 }
