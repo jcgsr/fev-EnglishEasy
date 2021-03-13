@@ -141,8 +141,11 @@
           <b-dropdown-item>
             <router-link to="/prefixsufix">Prefix & Sufix</router-link>
           </b-dropdown-item>
-          <b-dropdown-item>
+           <b-dropdown-item>
             <router-link to="/quantifiers">Quantifiers</router-link>
+          </b-dropdown-item>
+           <b-dropdown-item>
+            <router-link to="/countable">Countable and Uncountable Nouns</router-link>
           </b-dropdown-item>
         </b-dropdown>
       </b-col>

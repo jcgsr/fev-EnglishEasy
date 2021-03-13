@@ -150,7 +150,12 @@
                           >Quantifiers</router-link
                         >
                       </b-dropdown-item>
- 
+                    <b-dropdown-item>
+                        <router-link to="/countable"
+                          >Countable and Uncountable Nouns</router-link
+                        >
+                      </b-dropdown-item>
+
                   </b-nav-item-dropdown>
                 </b-navbar-nav>
               </b-collapse>

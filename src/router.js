@@ -44,6 +44,7 @@ import BeGoingTo from "./components/oitavo/BeGoingTo";
 import Will from "./components/oitavo/Will";
 import PrefixSufix from "./components/oitavo/PrefixSufix";
 import Quantifiers from "./components/oitavo/Quantifiers";
+import Countable from "./components/oitavo/Countable";
 
 Vue.use(Router);
 
@@ -371,6 +372,15 @@ export default new Router({
       meta: {
         auth: false,
         title: "Quantifiers",
+      },
+    },
+    {
+      path: "/countable",
+      name: "countable",
+      component: Countable,
+      meta: {
+        auth: false,
+        title: "Countable and Uncountable Nouns",
       },
     },
   ],

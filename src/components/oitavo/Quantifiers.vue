@@ -170,7 +170,10 @@
             </tr> 
           </tbody>
         </table>
-      
+     <p>
+       Para uma lista de substantivos contáveis e incontavéis, acessa a
+       página <router-link to="/countable">deles</router-link>.
+     </p> 
  </b-card-text>
 </b-card>
 </b-container>
@@ -184,7 +187,7 @@ export default {
   components: { Header8 },
 };
 </script>
-<style scoped>
+<style lang="css" scoped>
 td,
 th,
 tr {
