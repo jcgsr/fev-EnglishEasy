@@ -14,9 +14,7 @@
 						<tbody>
 							<tr>
 								<th>ADIÇÃO</th>
-								<th>CONTRASTE</th>
-								<th>TEMPO</th>
-								<th>MOTIVO</th>
+								<th>CONTRASTE</th>								
 							</tr>
 							<tr>
 								<td>
@@ -30,7 +28,13 @@
 									<strong class="text-primary">although</strong> - embora, apesar de; <br>
 									<strong class="text-primary">however</strong> - contudo, entretanto; <br>
 									<strong class="text-primary">despite/in spite of</strong> - apesar de;
-								</td>
+								</td>							
+							</tr>		
+							<tr>
+								<th>TEMPO</th>
+								<th>MOTIVO</th>					
+							</tr>
+							<tr>
 								<td>
 									<strong class="text-primary">while</strong> - enquanto, durante; <br>
 									<strong class="text-primary">before</strong> - antes (que); <br>
@@ -43,36 +47,36 @@
 									<strong class="text-primary">because of</strong> - por cause de, devido a; <br>
 									<strong class="text-primary">since/as</strong> - uma vez que, visto que/como;
 								</td>
-							</tr>							
+							</tr>
 						</tbody>
 					</table>
 				</p>    
 				
-							</b-card-text>
-			</b-card>
-		</b-container>
+			</b-card-text>
+		</b-card>
+	</b-container>
 
-	</template>
+</template>
 
-	<script>
-import Header7 from "./Header7";
-export default {
-  name: "LinkingWords",
-  components: {
-    Header7,
-  },
-};
+<script>
+	import Header7 from "./Header7";
+	export default {
+		name: "LinkingWords",
+		components: {
+			Header7,
+		},
+	};
 </script>
 
 <style scoped>
 td,
 th,
 tr {
-  border: 1px solid red;
-  padding: 1rem;
-  text-align: left;
+	border: 1px solid red;
+	padding: 1rem;
+	text-align: left;
 }
 table {
-  margin: 0 auto;
+	margin: 0 auto;
 }
 </style>
