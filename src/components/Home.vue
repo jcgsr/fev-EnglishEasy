@@ -221,7 +221,7 @@ h1 {
 }
 .container {
   text-align: center;
-  background-image: url(../assets/ameFlag.jpg);
+  /*background-image: url(../assets/ameFlag.jpg);*/
   padding: 2rem;
   margin-bottom: 2rem;
  /* background-repeat: repeat-x;
