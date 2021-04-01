@@ -1,6 +1,6 @@
 <template>
   <b-container class="container">
-    <h1>English Easy</h1>
+    <h1>English?! Easy...</h1>
     <b-row>
       <b-col md="3">
         <b-dropdown
