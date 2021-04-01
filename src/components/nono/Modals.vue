@@ -6,8 +6,13 @@
 			<b-card-sub-title>Verbos Modais</b-card-sub-title>
 			<b-card-text class="mt-2 md-w-75 text-center mx-auto">
 				<p>
-					Os <em>Verbos Modais</em> são sobre e a atitude de uma pessoa em relação ao mundo. Ela pode expressar <strong>certeza</strong>, <strong>possibilidade</strong>, <strong>vontade</strong>, <strong>obrigação</strong>, <strong>necessidade</strong> e <strong>habilidade</strong> usando esses tais verbos modais.
-				</p>
+					Os <em>Verbos Modais</em> são sobre a atitude de uma pessoa
+          em relação ao mundo. Ela pode expressar
+          <strong>certeza</strong>, <strong>possibilidade</strong>,
+          <strong>vontade</strong>, <strong>obrigação</strong>,
+          <strong>necessidade</strong> e <strong>habilidade</strong>
+          usando esses tais verbos modais.			
+        </p>
 				<h5>VERBOS MODAIS</h5>
 				<p>
 					<table>
@@ -138,7 +143,7 @@
               <strong>need</strong> com o mesmo sentido nessa frase.
 						</li>
 					</ol>
-          <li><strong>Negativa</strong>: Para se formar a negativa dos
+          <li><strong>Negativa</strong>: para se formar a negativa dos
             <strong>modais</strong>, basta usar
             <strong>not</strong> após o modal. Isso significa que toda
             vez que se quiser falar de <em>impossibilidade, incerteza,
@@ -155,6 +160,10 @@
             <li>should not, shouldn't</li>
             <li>must not, mustn't</li>
           </ol>
+          <li><strong>Interrogativa</strong>: para se formar uma frase
+            interrogativa, é somente iniciar a frase com qualquer um dos
+          <strong>modais</strong>. Simples assim. Procura aí em cima que
+          encontrarás exemplos.</li>
 				</ul>		
 				
 			</b-card-text>

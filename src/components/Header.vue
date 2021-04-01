@@ -170,6 +170,11 @@
                           >Modal Verbs</router-link
                           >
                         </b-dropdown-item>
+                        <b-dropdown-item>
+                          <router-link to="/conditionals"
+                          >Conditionals</router-link
+                          >
+                        </b-dropdown-item>
                       </b-nav-item-dropdown>
                     </b-navbar-nav>
                   </b-collapse>

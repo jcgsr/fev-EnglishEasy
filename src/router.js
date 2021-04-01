@@ -50,6 +50,7 @@ import UsedTo from "./components/oitavo/UsedTo";
 
 // Nono
 import Modals from "./components/nono/Modals";
+import Conditionals from "./components/nono/Conditionals";
 
 
 Vue.use(Router);
@@ -408,6 +409,15 @@ export default new Router({
       meta: {
         auth: false,
         title: "Modals",
+      },
+    },
+        {
+    path: "/conditionals",
+      name: "conditionals",
+      component: Conditionals,
+      meta: {
+        auth: false,
+        title: "Conditionals",
       },
     },
   ],
