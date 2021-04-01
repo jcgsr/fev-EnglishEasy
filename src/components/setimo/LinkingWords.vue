@@ -8,7 +8,7 @@
 				<p>
 					<em>Linking Words</em> são usadas para mostrar relações entre ideias. Eles podem ser usados para juntar 2 ou mais palavras ou frases. As <em>Linking Words</em> podem ser usada para <strong>adicionar ideias/informações</strong>, <strong>contrastá-las</strong> ou mostrar o <strong>motivo</strong> de algo ou mostrar a <strong>ordem</strong> que as coisas acontecem. Elas jamais mudam sua forma. Confere a tabela abaixo para conhecer, não todas, mas as <em>Linking Words</em> mais usadas.
 				</p>
-				<h5>TIPOS DE <EM>LINKING WORDS</EM></h5>
+				<h5>TIPOS DE <em>LINKING WORDS</em></h5>
 				<p>
 					<table>
 						<tbody>

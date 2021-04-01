@@ -46,6 +46,11 @@ import PrefixSufix from "./components/oitavo/PrefixSufix";
 import Quantifiers from "./components/oitavo/Quantifiers";
 import Countable from "./components/oitavo/Countable";
 import UsedTo from "./components/oitavo/UsedTo";
+// Fim Oitavo
+
+// Nono
+import Modals from "./components/nono/Modals";
+
 
 Vue.use(Router);
 
@@ -391,6 +396,18 @@ export default new Router({
       meta: {
         auth: false,
         title: "Used to",
+      },
+    },
+    // Fim do Oitavo
+
+    // Nono
+    {
+      path: "/modals",
+      name: "modals",
+      component: Modals,
+      meta: {
+        auth: false,
+        title: "Modals",
       },
     },
   ],
