@@ -3,6 +3,7 @@ import Router from "vue-router";
 
 import Home from "./components/Home";
 import Info from "./components/Info";
+// import sitemap from "./components/sitemap.xml"
 
 // Sexto
 import Be from "./components/sexto/Be";
@@ -68,6 +69,15 @@ export default new Router({
         title: "English Easy",
       },
     },
+    // {
+    //   path: "/sitemap",
+    //   name: "sitemap",
+    //   component: sitemap,
+    //   meta: {
+    //     auth: false,
+    //     title: "Sitemap",
+    //   },
+    // },
     {
       path: "/info",
       name: "info",
