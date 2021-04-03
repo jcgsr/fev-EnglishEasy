@@ -3,10 +3,10 @@
 		<Header7 />
 		<b-card class="shadow-lg mb-4">
 			<b-card-title>Linking Words</b-card-title>
-			<b-card-sub-title>Conjuções</b-card-sub-title>
+			<b-card-sub-title>Conjunções</b-card-sub-title>
 			<b-card-text class="mt-2 md-w-75 text-center mx-auto">
 				<p>
-					<em>Linking Words</em> são usadas para mostrar relações entre ideias. Eles podem ser usados para juntar 2 ou mais palavras ou frases. As <em>Linking Words</em> podem ser usada para <strong>adicionar ideias/informações</strong>, <strong>contrastá-las</strong> ou mostrar o <strong>motivo</strong> de algo ou mostrar a <strong>ordem</strong> que as coisas acontecem. Elas jamais mudam sua forma. Confere a tabela abaixo para conhecer, não todas, mas as <em>Linking Words</em> mais usadas.
+					<em>Linking Words</em> são usadas para mostrar relações entre ideias. Elas podem ser usadas para juntar 2 ou mais palavras ou frases. Também podem ser usadas para <strong>adicionar ideias/informações</strong>, <strong>contrastá-las</strong> ou mostrar o <strong>motivo</strong> de algo ou mostrar a <strong>ordem</strong> que as coisas acontecem. Elas jamais mudam sua forma. Confere a tabela abaixo para conhecer, não todas, mas as <em>Linking Words</em> mais usadas.
 				</p>
 				<h5>TIPOS DE <em>LINKING WORDS</em></h5>
 				<p>
@@ -59,24 +59,24 @@
 </template>
 
 <script>
-	import Header7 from "./Header7";
-	export default {
-		name: "LinkingWords",
-		components: {
-			Header7,
-		},
-	};
+import Header7 from "./Header7";
+export default {
+  name: "LinkingWords",
+  components: {
+    Header7,
+  },
+};
 </script>
 
 <style scoped>
 td,
 th,
 tr {
-	border: 1px solid red;
-	padding: 1rem;
-	text-align: left;
+  border: 1px solid red;
+  padding: 1rem;
+  text-align: left;
 }
 table {
-	margin: 0 auto;
+  margin: 0 auto;
 }
 </style>
