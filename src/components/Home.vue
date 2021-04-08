@@ -173,8 +173,6 @@
 </b-dropdown>
 </b-col>
 </b-row>
-<KinesisContainer>
-  <KinesisElement :strength="40" type="depth">
     <a :href="linkBrE" title="Pexels - BrE Bandeira">
       <img
       class="brE mt-4 mb-4"
@@ -182,27 +180,13 @@
       alt="Bandeira Inglesa"
       />
     </a>
-  </KinesisElement>
-</KinesisContainer>
 
-<!--     <KinesisContainer>
-      <KinesisElement :strength="20" type="depth">
-        <a href="linkAmE" title="Pexels - AmE Bandeira">
-          <img class="amE mb-4" src="../assets/ameFlag.jpg" alt="" />
-        </a>
-      </KinesisElement>
-    </KinesisContainer>
- -->  </b-container>
+ </b-container>
 </template>
 
 <script>
-  import {
-    KinesisContainer,
-    KinesisElement,
-  } from "../../node_modules/vue-kinesis/";
   export default {
     name: "Home",
-    components: { KinesisContainer, KinesisElement },
     data() {
       return {
         linkBrE:
